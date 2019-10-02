@@ -1,0 +1,648 @@
+.slots {
+  background: #000000;
+  padding: 15px;
+  border-radius: 15px;
+  color: #FFFFFF;
+  border: 3px inset #DEAD1E;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-ani {
+  0% {
+	border-color: #DEAD1E
+  }
+
+  25% {
+	border-color: #EDE8FF
+  }
+
+  50% {
+	border-color: #69FFFE
+  }
+
+  75% {
+	border-color: #ECFF30
+  }
+
+  100% {
+	border-color: #FF3652
+  }
+}
+
+@keyframes border-ani {
+  0% {
+	border-color: #DEAD1E
+  }
+
+  25% {
+	border-color: #EDE8FF
+  }
+
+  50% {
+	border-color: #69FFFE
+  }
+
+  75% {
+	border-color: #ECFF30
+  }
+
+  100% {
+	border-color: #FF3652
+  }
+}
+
+.slots .buttons-row .bet-message-box {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .bet-message-box .message {
+  font-weight: bold;
+  font-size: 150%;
+  font-style: italic;
+  color: #DEAD1E;
+  -webkit-animation-name: message-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: message-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes message-ani {
+  0% {
+	color: #DEAD1E
+  }
+
+  25% {
+	color: #EDE8FF
+  }
+
+  50% {
+	color: #69FFFE
+  }
+
+  75% {
+	color: #ECFF30
+  }
+
+  100% {
+	color: #FF3652
+  }
+}
+
+@keyframes message-ani {
+  0% {
+	color: #DEAD1E
+  }
+
+  25% {
+	color: #EDE8FF
+  }
+
+  50% {
+	color: #69FFFE
+  }
+
+  75% {
+	color: #ECFF30
+  }
+
+  100% {
+	color: #FF3652
+  }
+}
+
+.slots .buttons-row .buttons-box {
+  text-align: center
+}
+
+.slots .buttons-row .buttons-box .bet-button {
+  margin-bottom: 10px;
+  width: auto;
+  min-width: 65px
+}
+
+.slots .buttons-row .buttons-box .bet-custom-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .op-button {
+  width: auto;
+  min-width: 100px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .score-button {
+  width: auto
+}
+
+.slots .stage-row .stage-box .stage {
+  text-align: center;
+  margin-top: 15px
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con {
+  display: -webkit-flex;
+  display: flex
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #111111;
+  border-radius: 15px;
+  color: #FFFFFF;
+  border: 3px inset #DEAD1E;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con .players-icons {
+	font-size: 30px
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con .slots-player-vr {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 20px
+}
+
+.slots .stage-row .stage-box .stage .slots-result {
+  margin-bottom: 25px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .program-loading-box {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  min-height: 300px;
+  vertical-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-result .program-loading-box .program-loading {
+  text-align: center;
+  min-height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con {
+  display: -webkit-flex;
+  display: flex
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #111111
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image {
+  width: 100%;
+  height: 100%;
+  min-height: 85px;
+  min-width: 55px;
+  border: 5px solid #000000;
+  border-radius: 15px;
+  opacity: 1;
+  background: #FFFFFF
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.basics {
+  background: #1F00D5;
+  color: #FFF5EE
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.basics:before {
+  content: "Basics" "\A" "Resort"
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.red-card {
+  color: #FF0000
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.black-card {
+  color: #000000
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.ace {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.ace:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "A" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.jack {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.jack:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "J" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.queen {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.queen:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "Q" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.king {
+}
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.king:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "K" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number2 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number2:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "2" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number3 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number3:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "3" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number4 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number4:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "4" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number5 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number5:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "5" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number6 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number6:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "6" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number7 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number7:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "7" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number8 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number8:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "8" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number9 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number9:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "9" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number10 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.number10:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "10" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image.play {
+  -webkit-animation-name: slot0-ani;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-name: slot0-ani;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1
+}
+
+@-webkit-keyframes slot0-ani {
+  0% {
+	opacity: 0
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1
+  }
+}
+
+@keyframes slot0-ani {
+  0% {
+	opacity: 0
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1
+  }
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr {
+  display: block;
+  background: rgb(76,76,76);
+  background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(139,139,139,1) 25%, rgba(71,71,71,1) 39%, rgba(186,167,0,1) 49%, rgba(0,0,0,1) 50%, rgba(237,229,0,1) 51%, rgba(17,17,17,1) 60%, rgba(142,142,142,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(139,139,139,1) 25%,rgba(71,71,71,1) 39%,rgba(186,167,0,1) 49%,rgba(0,0,0,1) 50%,rgba(237,229,0,1) 51%,rgba(17,17,17,1) 60%,rgba(142,142,142,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(139,139,139,1) 25%,rgba(71,71,71,1) 39%,rgba(186,167,0,1) 49%,rgba(0,0,0,1) 50%,rgba(237,229,0,1) 51%,rgba(17,17,17,1) 60%,rgba(142,142,142,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c',endColorstr='#131313',GradientType=0);
+  border-left: 4px dashed #FFFFFF;
+  border-right: 4px dashed #FFFFFF;
+  width: 100%;
+  height: auto;
+  min-height: 20px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .insufficient-credits {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 150%;
+  color: #FF0000;
+  background: #081655;
+  background: -moz-radial-gradient(center, ellipse cover, #081655 0%, #3D6C36 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #081655 0%,#3D6C36 100%);
+  background: radial-gradient(ellipse at center, #081655 0%,#3D6C36 100%)
+}
+
+.slots .stage-row .stage-box .stage .slots-separator {
+  height: 0;
+  border: 0;
+  border-bottom: 2px groove #DEAD1E;
+  -webkit-animation-name: separator-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: separator-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes separator-ani {
+  0% {
+	border-color: #DEAD1E
+  }
+
+  25% {
+	border-color: #EDE8FF
+  }
+
+  50% {
+	border-color: #69FFFE
+  }
+
+  75% {
+	border-color: #ECFF30
+  }
+
+  100% {
+	border-color: #FF3652
+  }
+}
+
+@keyframes separator-ani {
+  0% {
+	border-color: #DEAD1E
+  }
+
+  25% {
+	border-color: #EDE8FF
+  }
+
+  50% {
+	border-color: #69FFFE
+  }
+
+  75% {
+	border-color: #ECFF30
+  }
+
+  100% {
+	border-color: #FF3652
+  }
+}
+
+.slots .stage-row .stage-box .stage .slots-winner {
+  visibility: hidden;
+  font-size: 125%;
+  font-weight: bold;
+  color: #FF0000
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .plus-sign {
+  color: #00FF00;
+  font-size: 105%
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .winnings {
+  color: #85BB65;
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .slots-draw {
+  visibility: hidden;
+  font-size: 125%;
+  font-weight: bold;
+  color: #0000FF
+}
+
+.slots .stage-row .stage-box .stage .slots-draw .equal-sign {
+  color: #00FF00;
+  font-size: 105%
+}
+
+.slots .stage-row .stage-box .stage .slots-draw .winnings {
+  color: #85BB65;
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .slots-loser {
+  visibility: hidden;
+  font-size: 125%;
+  font-weight: bold;
+  color: #FF0000
+}
+
+.slots .stage-row .stage-box .stage .slots-loser .minus-sign {
+  color: #00FF00;
+  font-size: 105%
+}
+
+.slots .stage-row .stage-box .stage .slots-loser .winnings {
+  color: #85BB65;
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box {
+  font-weight: bold
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box .credits {
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box {
+  font-weight: bold
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box .num-plays {
+  font-weight: normal
+}
+
+.ui-dialog {
+  border: 3px inset #DEAD1E !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  background: rgb(18, 18, 18);
+  border: 3px inset #DEAD1E !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+  color: #DEAD1E !important;
+  -webkit-animation-name: message-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: message-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  border-top: 3px inset #DEAD1E !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.score-dialog {
+  display: none
+}
+
+.score-dialog .score-dialog-body .high-score-local-box {
+  margin-bottom: 15px
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local .score {
+  font-weight: normal
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local .spins {
+  font-weight: normal
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .slots .buttons-row .bet-message-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-button {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-custom-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .op-buttons-box {
+    margin-bottom: 5px
+  }
+
+  .slots .stage-row .stage-box .stage .slots-result {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .op-buttons-box .op-button {
+    min-width: 75px
+  }
+}

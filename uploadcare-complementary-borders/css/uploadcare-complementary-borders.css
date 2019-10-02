@@ -1,0 +1,41 @@
+.uccb .message-box {
+  margin-bottom: 30px
+}
+
+.uccb .image-row {
+  text-align: center;
+  margin-bottom: 30px
+}
+
+.uccb .image-row .image-box .uc-image {
+  width: auto;
+  height: auto;
+  max-height: 500px
+}
+
+.uccb .bordered-image-row .bordered-image-box .image-box .b-flexor {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex
+}
+
+.uccb .bordered-image-row .bordered-image-box .image-box .b-flexor .b-flexed {
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center
+}
+
+.uccb .bordered-image-row .bordered-image-box .image-box .b-flexor .b-flexed.primary {
+  margin-right: 10px
+}
+
+.uccb .bordered-image-row .bordered-image-box .image-box .b-flexor .b-flexed .bordered-image {
+  padding: 15px;
+  background: #FFFFFF
+}
+
+.uccb .bordered-image-row .bordered-image-box .image-box .b-flexor .b-flexed .bordered-image-rgb .rgb-value {
+  font-style: italic
+}

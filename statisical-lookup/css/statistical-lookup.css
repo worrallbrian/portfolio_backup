@@ -1,0 +1,22 @@
+.statistical-lookup .buttons-box {
+  padding-top: 15px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 15px
+}
+
+.statistical-lookup .sheet-box .sheet-field {
+  color: #FF3300;
+  text-decoration: underline
+}
+
+.statistical-lookup .barchart-box {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 15px
+}
+
+.statistical-lookup .barchart-box .barchart-con {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 15px
+}

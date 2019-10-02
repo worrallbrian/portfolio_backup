@@ -1,0 +1,39 @@
+.slc-box .slc-form {
+  text-align: center;
+  margin-top: 15px
+}
+
+.slc-box .slc-form input {
+  text-align: center
+}
+
+.slc-box .slc-form .text_input2-group {
+  margin-top: 15px;
+  border-top: 1px solid #000000;
+  padding-top: 15px
+}
+
+.slc-box .slc-form .submit_btn-group {
+  margin-top: 15px
+}
+
+.slc-box .result_box {
+  width: 100%
+}
+
+.slc-box .result_box .result_equals {
+  text-align: center;
+  margin-top: 35px;
+  text-decoration: underline
+}
+
+.slc-box .headers-box {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  padding-bottom: 10px
+}
+
+.slc-box .headers-box .headers-value {
+  color: #FF3300;
+  text-decoration: underline
+}

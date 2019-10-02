@@ -1,0 +1,17 @@
+.emailer .preamble-box {
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.emailer .nowrap {
+  white-space: nowrap
+}
+
+.msg-dialog, .loading-dialog {
+  display: none
+}
+
+.loading-dialog .loading-dialog-body .loading-box {
+  text-align: center
+}

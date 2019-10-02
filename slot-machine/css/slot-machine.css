@@ -1,0 +1,170 @@
+.slots .buttons-row .bet-message-box {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .bet-message-box .message {
+  font-weight: bold;
+  font-size: 150%;
+  font-style: italic;
+  color: #DEAD1E
+}
+
+.slots .buttons-row .buttons-box {
+  text-align: center
+}
+
+.slots .buttons-row .buttons-box .bet-button {
+  margin-bottom: 10px;
+  width: auto;
+  min-width: 65px
+}
+
+.slots .buttons-row .buttons-box .bet-custom-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .op-button {
+  width: auto;
+  min-width: 100px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .score-button {
+  width: auto
+}
+
+.slots .stage-row .stage-box .stage {
+  text-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-result {
+  margin-bottom: 10px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .program-loading {
+  text-align: center;
+  min-height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con {
+  display: -webkit-flex;
+  display: flex
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: `1
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .slot-image {
+  width: 100%;
+  height: auto
+}
+
+.slots .stage-row .stage-box .stage .slots-result .insufficient-credits {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 150%;
+  color: #FF0000;
+  background: #081655;
+  background: -moz-radial-gradient(center, ellipse cover, #081655 0%, #3D6C36 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #081655 0%,#3D6C36 100%);
+  background: radial-gradient(ellipse at center, #081655 0%,#3D6C36 100%)
+}
+
+.slots .stage-row .stage-box .stage .slots-winner {
+  display: none;
+  font-size: 125%;
+  font-weight: bold;
+  color: #FF0000
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .plus-sign {
+  color: #00FF00;
+  font-size: 105%
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .winnings {
+  color: #85BB65;
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box {
+  font-weight: bold
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box .credits {
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box {
+  font-weight: bold
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box .num-plays {
+  font-weight: normal
+}
+
+.score-dialog {
+  display: none
+}
+
+.score-dialog .score-dialog-body .high-score-local-box {
+  margin-bottom: 15px
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local .score {
+  font-weight: normal
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local .spins {
+  font-weight: normal
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .slots .buttons-row .bet-message-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-button {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-custom-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .op-buttons-box {
+    margin-bottom: 5px
+  }
+
+  .slots .stage-row .stage-box .stage .slots-result {
+    margin-bottom: 5px
+  }
+  
+  .slots .buttons-row .buttons-box .op-buttons-box .op-button {
+    min-width: 75px
+  }
+}

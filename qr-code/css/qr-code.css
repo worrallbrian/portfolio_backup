@@ -1,0 +1,15 @@
+.qr-code .preamble {
+  margin-bottom: 15px
+}
+
+.qr-code .canvas-box .qr-code_canvas {
+  text-align: center;
+  width: auto
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .qr-code .canvas-box .qr-code_canvas {
+    width: 100%
+  }
+}

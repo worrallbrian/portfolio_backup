@@ -1,0 +1,109 @@
+.sports-tabler .filterOptionsButton-box {
+  text-align: center
+}
+
+.sports-tabler .filterOptionsButton-box .filterOptionsButton {
+  border-radius: 15px
+}
+
+.sports-tabler .filter-options-pane {
+  border: 5px outset #0000FF;
+  padding: 5px
+}
+
+.sports-tabler .filter-options-pane .controls-row .controls-row-inner {
+  border: 5px inset #FF0000;
+  padding: 5px
+}
+
+.sports-tabler .filter-options-pane .controls-row .controls-row-inner .filter-button-box {
+  margin-top: 25px;
+  text-align: center
+}
+
+.sports-tabler .filter-options-pane .controls-row .controls-row-inner .filter-button-box .filterButton {
+  border-radius: 15px
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .centerit {
+  text-align: center
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .vcenterit {
+  text-align: center;
+  vertical-align: middle
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .vcenterit .infoButton {
+  margin: auto;
+  border-radius: 15px
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel {
+  font-size: 14px !important
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel .jtable-left-area {
+  display: block !important
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel .jtable-left-area .jtable-page-list {
+  display: block !important;
+  margin-bottom: 5px
+}
+
+.sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel .jtable-right-area {
+  display: block !important
+}
+
+.details-dialog .details-dialog-body {
+  border: 5px outset #0000FF;
+  padding: 5px
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner {
+  border: 5px inset #FF0000;
+  padding: 5px
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .dialog-hr {
+  height: 0;
+  border: 1px inset #FF0000
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .details-title-box {
+  margin-bottom: 15px
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .details-title-box .details-title {
+  font-weight: bold;
+  font-size: 200%;
+  text-decoration: underline
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .details-dialog-table .dialog-key-value .former {
+  font-weight: bold
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .close-button-box {
+  margin-top: 25px
+}
+
+.details-dialog .details-dialog-body .details-dialog-body-inner .details-row .details-row-inner .close-button-box .dialogCloseButton {
+  border-radius: 15px
+}
+
+@media only screen and (max-width: 39.9375em) {
+  .sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel .jtable-left-area .jtable-page-list {
+    display: none !important
+  }
+
+  .sports-tabler .thetable-row .thetable-row-inner .thetable .jtable-main-container .jtable-bottom-panel .jtable-right-area {
+    display: none !important
+  }
+}

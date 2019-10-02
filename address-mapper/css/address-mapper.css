@@ -1,0 +1,51 @@
+.address-mapper .preamble-box {
+  border-bottom: 1px dotted #CCCCCC !important;
+  border-bottom: 10px;
+  margin-bottom: 15px
+}
+
+.address-mapper .form-box {
+  border-bottom: 1px dotted #CCCCCC !important;
+  border-bottom: 10px;
+  margin-bottom: 15px
+}
+
+.address-mapper .form-box .form-inline > .form-group {
+  vertical-align: top
+}
+
+.address-mapper .stage-box .stage .begin-div {
+  text-align: center
+}
+
+.address-mapper .stage-box .stage .program-loading {
+  text-align: center;
+  min-height: 65px;
+  height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.address-mapper .stage-box .stage .no-results {
+  text-align: center;
+  font-size: 115%;
+  font-weight: bold;
+  margin: 15px 10px 15px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
+.address-mapper .stage-box .stage {
+  width: 100%
+}
+
+.address-mapper .stage-box .stage .map-img {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  display: block;
+  margin: 0 auto
+}

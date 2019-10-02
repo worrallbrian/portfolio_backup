@@ -1,0 +1,51 @@
+.factor-solver .fs-form .fs-fieldset {
+  border-radius: 5px
+}
+
+.factor-solver .fs-form .fs-fieldset .fs-form-box .fs-form-box-inner .computeButton-box {
+  text-align: center;
+  margin-top: 15px
+}
+
+.factor-solver .fs-form .fs-fieldset .fs-form-box .fs-form-box-inner .computeButton-box .computeButton {
+  border-radius: 5px
+}
+
+.factor-solver .result-fieldset {
+  border-radius: 5px
+}
+
+.factor-solver .result-fieldset .result-fieldset-legend {
+  font-size: 125%;
+  font-weight: bold
+}
+
+.factor-solver .result-fieldset .result-box .result-box-inner .spinner-box .spinner-box-inner {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  min-height: 300px;
+  vertical-align: center
+}
+
+.factor-solver .result-fieldset .result-box .result-box-inner .spinner-box {
+  display: none
+}
+
+.factor-solver .result-fieldset .result-box .result-box-inner .spinner-box .spinner-box-inner .spinner-img {
+  text-align: center;
+  min-height: 65px;
+  vertical-align: center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.factor-solver .result-fieldset .result-box .result-box-inner .result-box-row {
+  margin-bottom: 10px
+}
+
+.factor-solver .result-fieldset .result-box .result-box-inner .result-box-row .result-name {
+  color: #FF3300;
+  text-decoration: underline
+}

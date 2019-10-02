@@ -1,0 +1,32 @@
+.uccc .message-box {
+  margin-bottom: 30px
+}
+
+.uccc .image-row {
+  text-align: center;
+  margin-bottom: 30px
+}
+
+.uccc .image-row .descriptor {
+  margin-bottom: 3px
+}
+
+.uccc .image-row .image-box .uc-image {
+  width: auto;
+  height: auto;
+  max-height: 500px
+}
+
+.uccc .cropped-image-row2 .cropped-image-box2 .image-box .cropped-flexor {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex
+}
+
+.uccc .cropped-image-row2 .cropped-image-box2 .image-box .cropped-flexor .cropped-flexed {
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center
+}

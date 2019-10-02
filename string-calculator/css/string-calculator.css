@@ -1,0 +1,9 @@
+.sevenshifts .test-row {
+  margin-bottom: 15px
+}
+
+.sevenshifts .test9-row .test-submit-box .submit-button {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border: 1px dotted #000000
+}

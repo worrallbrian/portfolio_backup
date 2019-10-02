@@ -1,0 +1,4235 @@
+.css-ani {
+  text-align: center
+}
+
+.css-ani .ex-title {
+  margin-bottom: 10px;
+  text-decoration: underline
+}
+
+/* background-color */
+.css-ani .ex-background-color-box .ex-background-color {
+  width: 150px;
+  height: 150px;
+  background-color: #FF0000;
+  margin: auto;
+  -webkit-animation-name: background-color-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: background-color-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes background-color-ani {
+  0% {
+    background-color: #FF0000
+  }
+
+  25% {
+    background-color: #887700
+  }
+
+  50% {
+    background-color: #00FF00
+  }
+
+  75% {
+    background-color: #007788
+  }
+
+  100% {
+    background-color: #0000FF
+  }
+}
+
+@keyframes background-color-ani {
+  0% {
+    background-color: #FF0000
+  }
+
+  25% {
+    background-color: #887700
+  }
+
+  50% {
+    background-color: #00FF00
+  }
+
+  75% {
+    background-color: #007788
+  }
+
+  100% {
+    background-color: #0000FF
+  }
+}
+
+/* background-image */
+.css-ani .ex-background-image-box .ex-background-image {
+  width: 150px;
+  height: 150px;
+  background: url("../img/1francofrancese1991front.jpg") no-repeat center;
+  margin: auto;
+  -webkit-animation-name: background-image-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: background-image-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes background-image-ani {
+  0% {
+    background: url("../img/1francofrancese1991front.jpg") no-repeat center
+  }
+
+  50% {
+    background: url("../img/1francofrancese1991back.jpg") no-repeat center
+  }
+
+  100% {
+    background: url("../img/1francofrancese1991front.jpg") no-repeat center
+  }
+}
+
+@keyframes background-image-ani {
+  0% {
+    background: url("../img/1francofrancese1991front.jpg") no-repeat center
+  }
+
+  50% {
+    background: url("../img/1francofrancese1991back.jpg") no-repeat center
+  }
+
+  100% {
+    background: url("../img/1francofrancese1991front.jpg") no-repeat center
+  }
+}
+
+/* background-position */
+.css-ani .ex-background-position-box .ex-background-position {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: url("../img/Face-smile-small.png") no-repeat left top;
+  -webkit-animation-name: background-position-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: background-position-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes background-position-ani {
+  0% {
+    background-position: left top
+  }
+
+  11% {
+    background-position: center top
+  }
+
+  22% {
+    background-position: right top
+  }
+
+  33% {
+    background-position: right center
+  }
+
+  44% {
+    background-position: right bottom
+  }
+
+  55% {
+    background-position: center bottom
+  }
+
+  66% {
+    background-position: left bottom
+  }
+
+  77% {
+    background-position: left center
+  }
+
+  88% {
+    background-position: center center
+  }
+
+  99% {
+    background-position: left top
+  }
+}
+
+@keyframes background-position-ani {
+  0% {
+    background-position: left top
+  }
+
+  11% {
+    background-position: center top
+  }
+
+  22% {
+    background-position: right top
+  }
+
+  33% {
+    background-position: right center
+  }
+
+  44% {
+    background-position: right bottom
+  }
+
+  55% {
+    background-position: center bottom
+  }
+
+  66% {
+    background-position: left bottom
+  }
+
+  77% {
+    background-position: left center
+  }
+
+  88% {
+    background-position: center center
+  }
+
+  99% {
+    background-position: left top
+  }
+}
+
+/* background-repeat */
+.css-ani .ex-background-repeat-box .ex-background-repeat {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: url("../img/Face-smile-small.png") no-repeat center;
+  -webkit-animation-name: background-repeat-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: background-repeat-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes background-repeat-ani {
+  0% {
+    background-repeat: no-repeat
+  }
+
+  25% {
+    background-repeat: repeat-x
+  }
+
+  50% {
+    background-repeat: repeat-y
+  }
+
+  75% {
+    background-repeat: repeat
+  }
+
+  100% {
+    background-repeat: no-repeat
+  }
+}
+
+@keyframes background-repeat-ani {
+  0% {
+    background-repeat: no-repeat
+  }
+
+  25% {
+    background-repeat: repeat-x
+  }
+
+  50% {
+    background-repeat: repeat-y
+  }
+
+  75% {
+    background-repeat: repeat
+  }
+
+  100% {
+    background-repeat: no-repeat
+  }
+}
+
+/* background-size */
+.css-ani .ex-background-size-box .ex-background-size {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: url("../img/Face-smile-small.png") no-repeat center;
+  -webkit-animation-name: background-size-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: background-size-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes background-size-ani {
+  0% {
+    background-size: 100% 100%
+  }
+
+  25% {
+    background-size: 75% 75%
+  }
+
+  50% {
+    background-size: 50% 50%
+  }
+
+  75% {
+    background-size: 25% 25%
+  }
+
+  100% {
+    background-size: 0% 0%
+  }
+}
+
+@keyframes background-size-ani {
+  0% {
+    background-size: 100% 100%
+  }
+
+  25% {
+    background-size: 75% 75%
+  }
+
+  50% {
+    background-size: 50% 50%
+  }
+
+  75% {
+    background-size: 25% 25%
+  }
+
+  100% {
+    background-size: 0% 0%
+  }
+}
+
+/* border */
+.css-ani .ex-border-box .ex-border {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #0000FF;
+  border: 0;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-ani {
+  0% {
+    border: 0
+  }
+
+  25% {
+    border: 1px solid #000000
+  }
+
+  50% {
+    border: 5px solid #000000
+  }
+
+  75% {
+    border: 10px solid #000000
+  }
+
+  100% {
+    border: 20px solid #000000
+  }
+}
+
+@keyframes border-ani {
+  0% {
+    border: 0
+  }
+
+  25% {
+    border: 1px solid #000000
+  }
+
+  50% {
+    border: 5px solid #000000
+  }
+
+  75% {
+    border: 10px solid #000000
+  }
+
+  100% {
+    border: 20px solid #000000
+  }
+}
+
+/* border-color */
+.css-ani .ex-border-color-box .ex-border-color {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  border: 10px solid #FF0000;
+  -webkit-animation-name: border-color-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-color-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-color-ani {
+  0% {
+    border-color: #FF0000
+  }
+
+  25% {
+    border-color: #887700
+  }
+
+  50% {
+    border-color: #00FF00
+  }
+
+  75% {
+    border-color: #007788
+  }
+
+  100% {
+    border-color: #0000FF
+  }
+}
+
+@keyframes border-color-ani {
+  0% {
+    border-color: #FF0000
+  }
+
+  25% {
+    border-color: #887700
+  }
+
+  50% {
+    border-color: #00FF00
+  }
+
+  75% {
+    border-color: #007788
+  }
+
+  100% {
+    border-color: #0000FF
+  }
+}
+
+/* border-radius */
+.css-ani .ex-border-radius-box .ex-border-radius {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  border: 10px solid #FF0000;
+  border-radius: 0;
+  -webkit-animation-name: border-radius-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-radius-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-radius-ani {
+  0% {
+    border-radius: 0
+  }
+
+  25% {
+    border-radius: 5px
+  }
+
+  50% {
+    border-radius: 25px
+  }
+
+  75% {
+    border-radius: 50px
+  }
+
+  100% {
+    border-radius: 100px
+  }
+}
+
+@keyframes border-radius-ani {
+  0% {
+    border-radius: 0
+  }
+
+  25% {
+    border-radius: 5px
+  }
+
+  50% {
+    border-radius: 25px
+  }
+
+  75% {
+    border-radius: 50px
+  }
+
+  100% {
+    border-radius: 100px
+  }
+}
+
+/* border-style */
+.css-ani .ex-border-style-box .ex-border-style {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  border: 10px solid #FF0000;
+  -webkit-animation-name: border-style-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-style-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-style-ani {
+  0% {
+    border-style: solid
+  }
+
+  14% {
+    border-style: dotted
+  }
+
+  28% {
+    border-style: dashed
+  }
+
+  42% {
+    border-style: double
+  }
+
+  56% {
+    border-style: groove
+  }
+
+  70% {
+    border-style: ridge
+  }
+
+  84% {
+    border-style: inset
+  }
+
+  98% {
+    border-style: outset
+  }
+}
+
+@keyframes border-style-ani {
+  0% {
+    border-style: solid
+  }
+
+  14% {
+    border-style: dotted
+  }
+
+  28% {
+    border-style: dashed
+  }
+
+  42% {
+    border-style: double
+  }
+
+  56% {
+    border-style: groove
+  }
+
+  70% {
+    border-style: ridge
+  }
+
+  84% {
+    border-style: inset
+  }
+
+  98% {
+    border-style: outset
+  }
+}
+
+/* color */
+.css-ani .ex-color-box .ex-color {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FF0000;
+  -webkit-animation-name: color-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: color-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes color-ani {
+  0% {
+    color: #FF0000
+  }
+
+  25% {
+    color: #887700
+  }
+
+  50% {
+    color: #00FF00
+  }
+
+  75% {
+    color: #007788
+  }
+
+  100% {
+    color: #0000FF
+  }
+}
+
+@keyframes color-ani {
+  0% {
+    color: #FF0000
+  }
+
+  25% {
+    color: #887700
+  }
+
+  50% {
+    color: #00FF00
+  }
+
+  75% {
+    color: #007788
+  }
+
+  100% {
+    color: #0000FF
+  }
+}
+
+/* cursor */
+.css-ani .ex-cursor-box .ex-cursor {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  cursor: auto;
+  -webkit-animation-name: cursor-ani;
+  -webkit-animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: cursor-ani;
+  animation-duration: 18s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes cursor-ani {
+  0% {
+    cursor: auto
+  }
+
+  2.78% {
+    cursor: alias
+  }
+
+  5.56% {
+    cursor: all-scroll
+  }
+
+  8.34% {
+    cursor: cell
+  }
+
+  11.12% {
+    cursor: context-menu
+  }
+
+  13.9% {
+    cursor: col-resize
+  }
+
+  16.68% {
+    cursor: copy
+  }
+
+  19.46% {
+    cursor: crosshair
+  }
+
+  22.24% {
+    cursor: default
+  }
+
+  25.02% {
+    cursor: e-resize
+  }
+
+  27.8% {
+    cursor: ew-resize
+  }
+
+  30.58% {
+    cursor: grab
+  }
+
+  33.36% {
+    cursor: grabbing
+  }
+
+  36.14% {
+    cursor: help
+  }
+
+  38.92% {
+    cursor: move
+  }
+
+  41.7% {
+    cursor: n-resize
+  }
+
+  44.48% {
+    cursor: ne-resize
+  }
+
+  47.26% {
+    cursor: nesw-resize
+  }
+
+  50.04% {
+    cursor: ns-resize
+  }
+
+  52.82% {
+    cursor: nw-resize
+  }
+
+  55.6% {
+    cursor: nwse-resize
+  }
+
+  58.38% {
+    cursor: no-drop
+  }
+
+  61.16% {
+    cursor: none
+  }
+
+  63.94% {
+    cursor: not-allowed
+  }
+
+  66.72% {
+    cursor: pointer
+  }
+
+  69.5% {
+    cursor: progress
+  }
+
+  72.28% {
+    cursor: row-resize
+  }
+
+  75.06% {
+    cursor: s-resize
+  }
+
+  77.84% {
+    cursor: se-resize
+  }
+
+  80.62% {
+    cursor: sw-resize
+  }
+
+  83.4% {
+    cursor: text
+  }
+
+  86.18% {
+    cursor: vertical-text
+  }
+
+  88.96% {
+    cursor: w-resize
+  }
+
+  91.74% {
+    cursor: wait
+  }
+
+  94.52% {
+    cursor: zoom-in
+  }
+
+  97.3% {
+    cursor: zoom-out
+  }
+
+  100% {
+    cursor: auto
+  }
+}
+
+@keyframes cursor-ani {
+  0% {
+    cursor: auto
+  }
+
+  2.78% {
+    cursor: alias
+  }
+
+  5.56% {
+    cursor: all-scroll
+  }
+
+  8.34% {
+    cursor: cell
+  }
+
+  11.12% {
+    cursor: context-menu
+  }
+
+  13.9% {
+    cursor: col-resize
+  }
+
+  16.68% {
+    cursor: copy
+  }
+
+  19.46% {
+    cursor: crosshair
+  }
+
+  22.24% {
+    cursor: default
+  }
+
+  25.02% {
+    cursor: e-resize
+  }
+
+  27.8% {
+    cursor: ew-resize
+  }
+
+  30.58% {
+    cursor: grab
+  }
+
+  33.36% {
+    cursor: grabbing
+  }
+
+  36.14% {
+    cursor: help
+  }
+
+  38.92% {
+    cursor: move
+  }
+
+  41.7% {
+    cursor: n-resize
+  }
+
+  44.48% {
+    cursor: ne-resize
+  }
+
+  47.26% {
+    cursor: nesw-resize
+  }
+
+  50.04% {
+    cursor: ns-resize
+  }
+
+  52.82% {
+    cursor: nw-resize
+  }
+
+  55.6% {
+    cursor: nwse-resize
+  }
+
+  58.38% {
+    cursor: no-drop
+  }
+
+  61.16% {
+    cursor: none
+  }
+
+  63.94% {
+    cursor: not-allowed
+  }
+
+  66.72% {
+    cursor: pointer
+  }
+
+  69.5% {
+    cursor: progress
+  }
+
+  72.28% {
+    cursor: row-resize
+  }
+
+  75.06% {
+    cursor: s-resize
+  }
+
+  77.84% {
+    cursor: se-resize
+  }
+
+  80.62% {
+    cursor: sw-resize
+  }
+
+  83.4% {
+    cursor: text
+  }
+
+  86.18% {
+    cursor: vertical-text
+  }
+
+  88.96% {
+    cursor: w-resize
+  }
+
+  91.74% {
+    cursor: wait
+  }
+
+  94.52% {
+    cursor: zoom-in
+  }
+
+  97.3% {
+    cursor: zoom-out
+  }
+
+  100% {
+    cursor: auto
+  }
+}
+
+/* display */
+.css-ani .ex-display-box .ex-display {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  display: block;
+  -webkit-animation-name: display-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: display-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-display-box .ex-display .ex-display-tr {
+  display: block;
+  -webkit-animation-name: display-tr-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: display-tr-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-display-box .ex-display .ex-display-tr .ex-display-td {
+  display: block;
+  -webkit-animation-name: display-td-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: display-td-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes display-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+@keyframes display-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+@-webkit-keyframes display-tr-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table-row
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+@keyframes display-tr-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table-row
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+@-webkit-keyframes display-td-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table-cell
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+@keyframes display-td-ani {
+  0% {
+    display: block
+  }
+
+  16.66% {
+    display: flex
+  }
+
+  33.32% {
+    display: table-cell
+  }
+
+  49.98% {
+    display: list-item
+  }
+
+  66.64% {
+    display: inline-block
+  }
+
+  83.3% {
+    display: inline
+  }
+
+  100% {
+    display: none
+  }
+}
+
+/* flex */
+.css-ani .ex-flex-box .ex-flex {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex
+}
+
+.css-ani .ex-flex-box .ex-flex .ex-flex-1 {
+  height: 100%;
+  background: #FF0000;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-animation-name: flex-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flex-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-flex-box .ex-flex .ex-flex-2 {
+  height: 100%;
+  background: #0000FF;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5
+}
+
+@-webkit-keyframes flex-ani {
+  0% {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+  }
+
+  25% {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3
+  }
+
+  50% {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5
+  }
+
+  75% {
+    -webkit-flex: 10;
+    -ms-flex: 10;
+    flex: 10
+  }
+
+  100% {
+    -webkit-flex: 20;
+    -ms-flex: 20;
+    flex: 20
+  }
+}
+
+@keyframes flex-ani {
+  0% {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+  }
+
+  25% {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3
+  }
+
+  50% {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5
+  }
+
+  75% {
+    -webkit-flex: 10;
+    -ms-flex: 10;
+    flex: 10
+  }
+
+  100% {
+    -webkit-flex: 20;
+    -ms-flex: 20;
+    flex: 20
+  }
+}
+
+/* flex-direction */
+.css-ani .ex-flex-direction-box .ex-flex-direction {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-animation-name: flex-direction-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flex-direction-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-flex-direction-box .ex-flex-direction .ex-flex-direction-1 {
+  height: 100%;
+  background: #FF0000;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+.css-ani .ex-flex-direction-box .ex-flex-direction .ex-flex-direction-2 {
+  height: 100%;
+  background: #00FF00;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+.css-ani .ex-flex-direction-box .ex-flex-direction .ex-flex-direction-3 {
+  height: 100%;
+  background: #0000FF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+.css-ani .ex-flex-direction-box .ex-flex-direction .ex-flex-direction-4 {
+  height: 100%;
+  background: #FFF000;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+@-webkit-keyframes flex-direction-ani {
+  0% {
+    -webkit-flex-direction: row;
+    flex-direction: row
+  }
+
+  33% {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse
+  }
+
+  66% {
+    -webkit-flex-direction: column;
+    flex-direction: column
+  }
+
+  99% {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse
+  }
+}
+
+@keyframes flex-direction-ani {
+  0% {
+    -webkit-flex-direction: row;
+    flex-direction: row
+  }
+
+  33% {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse
+  }
+
+  66% {
+    -webkit-flex-direction: column;
+    flex-direction: column
+  }
+
+  99% {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse
+  }
+}
+
+/* flex-grow */
+.css-ani .ex-flex-grow-box .ex-flex-grow {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex
+}
+
+.css-ani .ex-flex-grow-box .ex-flex-grow .ex-flex-grow-1 {
+  height: 100%;
+  background: #FF0000;
+  -webkit-flex-grow: 5;
+  flex-grow: 5
+}
+
+.css-ani .ex-flex-grow-box .ex-flex-grow .ex-flex-grow-2 {
+  height: 100%;
+  background: #00FF00;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-animation-name: flex-grow-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flex-grow-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-flex-grow-box .ex-flex-grow .ex-flex-grow-3 {
+  height: 100%;
+  background: #0000FF;
+  -webkit-flex-grow: 5;
+  flex-grow: 5
+}
+
+@-webkit-keyframes flex-grow-ani {
+  0% {
+    -webkit-flex-grow: 1;
+    flex-grow: 1
+  }
+
+  25% {
+    -webkit-flex-grow: 3;
+    flex-grow: 3
+  }
+
+  50% {
+    -webkit-flex-grow: 5;
+    flex-grow: 5
+  }
+
+  75% {
+    -webkit-flex-grow: 10;
+    flex-grow: 10
+  }
+
+  100% {
+    -webkit-flex-grow: 20;
+    flex-grow: 20
+  }
+}
+
+@keyframes flex-grow-ani {
+  0% {
+    -webkit-flex-grow: 1;
+    flex-grow: 1
+  }
+
+  25% {
+    -webkit-flex-grow: 3;
+    flex-grow: 3
+  }
+
+  50% {
+    -webkit-flex-grow: 5;
+    flex-grow: 5
+  }
+
+  75% {
+    -webkit-flex-grow: 10;
+    flex-grow: 10
+  }
+
+  100% {
+    -webkit-flex-grow: 20;
+    flex-grow: 20
+  }
+}
+
+/* flex-shrink */
+.css-ani .ex-flex-shrink-box .ex-flex-shrink {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-animation-name: flex-shrink-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flex-shrink-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-flex-shrink-box .ex-flex-shrink .ex-flex-shrink-1 {
+  height: 100%;
+  background: #FF0000;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1
+}
+
+.css-ani .ex-flex-shrink-box .ex-flex-shrink .ex-flex-shrink-2 {
+  height: 100%;
+  background: #00FF00;
+  -webkit-flex-shrink: 5;
+  flex-shrink: 5;
+  -webkit-flex-grow: 1;
+  flex-grow: 1
+}
+
+.css-ani .ex-flex-shrink-box .ex-flex-shrink .ex-flex-shrink-3 {
+  height: 100%;
+  background: #0000FF;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1
+}
+
+@-webkit-keyframes flex-shrink-ani {
+  0% {
+    width: 150px
+  }
+
+  50% {
+    width: 125px
+  }
+
+  100% {
+    width: 100px
+  }
+}
+
+@keyframes flex-shrink-ani {
+  0% {
+    width: 150px
+  }
+
+  50% {
+    width: 125px
+  }
+
+  100% {
+    width: 100px
+  }
+}
+
+
+/* flex-wrap */
+.css-ani .ex-flex-wrap-box .ex-flex-wrap {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-animation-name: flex-wrap-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: flex-wrap-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-flex-wrap-box .ex-flex-wrap .ex-flex-wrap-1 {
+  height: 75px;
+  width: 50px;
+  background: #FF0000
+}
+
+.css-ani .ex-flex-wrap-box .ex-flex-wrap .ex-flex-wrap-2 {
+  height: 75px;
+  width: 50px;
+  background: #00FF00
+}
+
+.css-ani .ex-flex-wrap-box .ex-flex-wrap .ex-flex-wrap-3 {
+  height: 75px;
+  width: 50px;
+  background: #0000FF
+}
+
+.css-ani .ex-flex-wrap-box .ex-flex-wrap .ex-flex-wrap-4 {
+  height: 75px;
+  width: 50px;
+  background: #CCCCCC
+}
+
+@-webkit-keyframes flex-wrap-ani {
+  0% {
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap
+  }
+
+  50% {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+
+  75% {
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse
+  }
+}
+
+@keyframes flex-wrap-ani {
+  0% {
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap
+  }
+
+  50% {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+
+  75% {
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse
+  }
+}
+
+/* float */
+.css-ani .ex-float-box .ex-float {
+  width: 150px;
+  height: 150px;
+  margin: auto
+}
+
+.css-ani .ex-float-box .ex-float .ex-float-1 {
+  width: auto;
+  height: auto;
+  float: left;
+  -webkit-animation-name: float-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: float-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-float-box .ex-float .ex-float-1 .ex-float-img {
+  width: auto;
+  height: auto
+}
+
+@-webkit-keyframes float-ani {
+  0% {
+    float: left
+  }
+
+  50% {
+    float: right
+  }
+
+  100% {
+    float: left
+  }
+}
+
+@keyframes float-ani {
+  0% {
+    float: left
+  }
+
+  50% {
+    float: right
+  }
+
+  100% {
+    float: left
+  }
+}
+
+/* font-family */
+.css-ani .ex-font-family-box .ex-font-family {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  font-family: arial;
+  -webkit-animation-name: font-family-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: font-family-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes font-family-ani {
+  0% {
+    font-family: arial, sans-serif
+  }
+
+  25% {
+    font-family: Terminal, sans-serif
+  }
+
+  50% {
+    font-family: "Times New Roman", serif
+  }
+
+  75% {
+    font-family: courier, serif
+  }
+
+  100% {
+    font-family:, "Comic Sans MS", Helvetica, serif
+  }
+}
+
+@keyframes font-family-ani {
+  0% {
+    font-family: arial, sans-serif
+  }
+
+  25% {
+    font-family: Terminal, sans-serif
+  }
+
+  50% {
+    font-family: "Times New Roman", serif
+  }
+
+  75% {
+    font-family: courier, serif
+  }
+
+  100% {
+    font-family:, "Comic Sans MS", Helvetica, serif
+  }
+}
+
+/* font-size */
+.css-ani .ex-font-size-box .ex-font-size {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 8px;
+  -webkit-animation-name: font-size-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: font-size-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes font-size-ani {
+  0% {
+    font-size: 8px
+  }
+
+  25% {
+    font-size: 12px
+  }
+
+  50% {
+    font-size: 20px
+  }
+
+  75% {
+    font-size: 30px
+  }
+
+  100% {
+    font-size: 42px
+  }
+}
+
+@keyframes font-size-ani {
+  0% {
+    font-size: 8px
+  }
+
+  25% {
+    font-size: 12px
+  }
+
+  50% {
+    font-size: 20px
+  }
+
+  75% {
+    font-size: 30px
+  }
+
+  100% {
+    font-size: 42px
+  }
+}
+
+/* font-style */
+.css-ani .ex-font-style-box .ex-font-style {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  font-style: normal;
+  -webkit-animation-name: font-style-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: font-style-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes font-style-ani {
+  0% {
+    font-style: normal
+  }
+
+  50% {
+    font-style: italic
+  }
+
+  100% {
+    font-style: oblique
+  }
+}
+
+@keyframes font-style-ani {
+  0% {
+    font-style: normal
+  }
+
+  50% {
+    font-style: italic
+  }
+
+  100% {
+    font-style: oblique
+  }
+}
+
+/* font-weight */
+.css-ani .ex-font-weight-box .ex-font-weight {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  font-weight: normal;
+  -webkit-animation-name: font-weight-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: font-weight-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes font-weight-ani {
+  0% {
+    font-weight: normal
+  }
+
+  11% {
+    font-weight: 100
+  }
+
+  22% {
+    font-weight: 200
+  }
+
+  33% {
+    font-weight: 300
+  }
+
+  44% {
+    font-weight: 400
+  }
+
+  55% {
+    font-weight: 500
+  }
+
+  66% {
+    font-weight: 600
+  }
+
+  77% {
+    font-weight: 700
+  }
+
+  88% {
+    font-weight: 800
+  }
+
+  99% {
+    font-weight: 900
+  }
+}
+
+@keyframes font-weight-ani {
+  0% {
+    font-weight: normal
+  }
+
+  11% {
+    font-weight: 100
+  }
+
+  22% {
+    font-weight: 200
+  }
+
+  33% {
+    font-weight: 300
+  }
+
+  44% {
+    font-weight: 400
+  }
+
+  55% {
+    font-weight: 500
+  }
+
+  66% {
+    font-weight: 600
+  }
+
+  77% {
+    font-weight: 700
+  }
+
+  88% {
+    font-weight: 800
+  }
+
+  99% {
+    font-weight: 900
+  }
+}
+
+/* height */
+.css-ani .ex-height-box .ex-height {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-height-box .ex-height .ex-height-1 {
+  width: 100%;
+  height: 100%;
+  background: #FF0000;
+  -webkit-animation-name: height-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: height-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes height-ani {
+  0% {
+    height: 100%
+  }
+
+  25% {
+    height: 75%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  75% {
+    height: 25%
+  }
+
+  100% {
+    height: 0%
+  }
+}
+
+@keyframes height-ani {
+  0% {
+    height: 100%
+  }
+
+  25% {
+    height: 75%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  75% {
+    height: 25%
+  }
+
+  100% {
+    height: 0%
+  }
+}
+
+/* justify-content */
+.css-ani .ex-justify-content-box .ex-justify-content {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-animation-name: justify-content-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: justify-content-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-justify-content-box .ex-justify-content .ex-justify-content-1 {
+  width: 35px;
+  height: 150px;
+  background: #FF0000
+}
+
+.css-ani .ex-justify-content-box .ex-justify-content .ex-justify-content-2 {
+  width: 35px;
+  height: 150px;
+  background: #00FF00
+}
+
+.css-ani .ex-justify-content-box .ex-justify-content .ex-justify-content-3 {
+  width: 35px;
+  height: 150px;
+  background: #0000FF
+}
+
+@-webkit-keyframes justify-content-ani {
+  0% {
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
+  }
+
+  25% {
+    -webkit-justify-content: center;
+    justify-content: center
+  }
+
+  50% {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end
+  }
+
+  75% {
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+  }
+
+  100% {
+    -webkit-justify-content: space-around;
+    justify-content: space-around
+  }
+}
+
+@keyframes justify-content-ani {
+  0% {
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
+  }
+
+  25% {
+    -webkit-justify-content: center;
+    justify-content: center
+  }
+
+  50% {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end
+  }
+
+  75% {
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+  }
+
+  100% {
+    -webkit-justify-content: space-around;
+    justify-content: space-around
+  }
+}
+
+/* letter-spacing */
+.css-ani .ex-letter-spacing-box .ex-letter-spacing {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  letter-spacing: normal;
+  -webkit-animation-name: letter-spacing-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: letter-spacing-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes letter-spacing-ani {
+  0% {
+    letter-spacing: normal
+  }
+
+  25% {
+    letter-spacing: 1px
+  }
+
+  50% {
+    letter-spacing: 2px
+  }
+
+  75% {
+    letter-spacing: 3px
+  }
+
+  100% {
+    letter-spacing: 4px
+  }
+}
+
+@keyframes letter-spacing-ani {
+  0% {
+    letter-spacing: normal
+  }
+
+  25% {
+    letter-spacing: 1px
+  }
+
+  50% {
+    letter-spacing: 2px
+  }
+
+  75% {
+    letter-spacing: 3px
+  }
+
+  100% {
+    letter-spacing: 4px
+  }
+}
+
+/* line-height */
+.css-ani .ex-line-height-box .ex-line-height {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  line-height: normal;
+  -webkit-animation-name: line-height-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: line-height-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes line-height-ani {
+  0% {
+    line-height: normal
+  }
+
+  25% {
+    line-height: 1.25
+  }
+
+  50% {
+    line-height: 1.5
+  }
+
+  75% {
+    line-height: 1.75
+  }
+
+  100% {
+    line-height: 2
+  }
+}
+
+@keyframes line-height-ani {
+  0% {
+    line-height: normal
+  }
+
+  25% {
+    line-height: 1.25
+  }
+
+  50% {
+    line-height: 1.5
+  }
+
+  75% {
+    line-height: 1.75
+  }
+
+  100% {
+    line-height: 2
+  }
+}
+
+/* list-style-type */
+.css-ani .ex-list-style-box .ex-list-style {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-list-style-box .ex-list-style .ex-list-style-ul {
+  color: #FFFFFF;
+  list-style: disc outside;
+  -webkit-animation-name: list-style-ani;
+  -webkit-animation-duration: 11s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: list-style-ani;
+  animation-duration: 11s;
+  animation-iteration-count: infinite
+}
+
+.css-ani .ex-list-style-box .ex-list-style .ex-list-style-ul .ex-list-style-li{
+  color: #FFFFFF
+}
+
+@-webkit-keyframes list-style-ani {
+  0% {
+    list-style: disc outside
+  }
+
+  4.5% {
+    list-style: armenian outside
+  }
+
+  9% {
+    list-style: circle outside
+  }
+
+  13.5% {
+    list-style: cjk-ideographic outside
+  }
+
+  18% {
+    list-style: decimal outside
+  }
+
+  22.5% {
+    list-style: decimal-leading-zero outside
+  }
+
+  27% {
+    list-style: georgian outside
+  }
+
+  31.5% {
+    list-style: hebrew outside
+  }
+
+  36% {
+    list-style: hiragana outside
+  }
+
+  40.5% {
+    list-style: hiragana-iroha outside
+  }
+
+  45% {
+    list-style: katakana outside
+  }
+
+  49.5% {
+    list-style: katakana-iroha outside
+  }
+
+  54% {
+    list-style: lower-alpha outside
+  }
+
+  58.5% {
+    list-style: lower-greek outside
+  }
+
+  63% {
+    list-style: lower-latin outside
+  }
+
+  67.5% {
+    list-style: lower-roman outside
+  }
+
+  72% {
+    list-style: square outside
+  }
+
+  76.5% {
+    list-style: upper-alpha outside
+  }
+
+  81% {
+    list-style: upper-greek outside
+  }
+
+  85.5% {
+    list-style: upper-latin outside
+  }
+
+  90% {
+    list-style: upper-roman outside
+  }
+
+  94.5% {
+    list-style: none outside
+  }
+}
+
+@keyframes list-style-ani {
+  0% {
+    list-style: disc outside
+  }
+
+  4.5% {
+    list-style: armenian outside
+  }
+
+  9% {
+    list-style: circle outside
+  }
+
+  13.5% {
+    list-style: cjk-ideographic outside
+  }
+
+  18% {
+    list-style: decimal outside
+  }
+
+  22.5% {
+    list-style: decimal-leading-zero outside
+  }
+
+  27% {
+    list-style: georgian outside
+  }
+
+  31.5% {
+    list-style: hebrew outside
+  }
+
+  36% {
+    list-style: hiragana outside
+  }
+
+  40.5% {
+    list-style: hiragana-iroha outside
+  }
+
+  45% {
+    list-style: katakana outside
+  }
+
+  49.5% {
+    list-style: katakana-iroha outside
+  }
+
+  54% {
+    list-style: lower-alpha outside
+  }
+
+  58.5% {
+    list-style: lower-greek outside
+  }
+
+  63% {
+    list-style: lower-latin outside
+  }
+
+  67.5% {
+    list-style: lower-roman outside
+  }
+
+  72% {
+    list-style: square outside
+  }
+
+  76.5% {
+    list-style: upper-alpha outside
+  }
+
+  81% {
+    list-style: upper-greek outside
+  }
+
+  85.5% {
+    list-style: upper-latin outside
+  }
+
+  90% {
+    list-style: upper-roman outside
+  }
+
+  94.5% {
+    list-style: none outside
+  }
+}
+
+/* margin */
+.css-ani .ex-margin-box .ex-margin {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-margin-box .ex-margin .ex-margin-1 {
+  color: #FFFFFF;
+  margin: 0;
+  -webkit-animation-name: margin-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: margin-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes margin-ani {
+  0% {
+    margin: 0
+  }
+
+  25% {
+    margin-left: 5px;
+	margin-right: 5px
+  }
+
+  50% {
+    margin-left: 10px;
+	margin-right: 10px
+  }
+
+  75% {
+    margin-left: 15px;
+	margin-right: 15px
+  }
+
+  100% {
+    margin-left: 25px;
+	margin-right: 25px
+  }
+}
+
+@keyframes margin-ani {
+  0% {
+    margin: 0
+  }
+
+  25% {
+    margin-left: 5px;
+	margin-right: 5px
+  }
+
+  50% {
+    margin-left: 10px;
+	margin-right: 10px
+  }
+
+  75% {
+    margin-left: 15px;
+	margin-right: 15px
+  }
+
+  100% {
+    margin-left: 25px;
+	margin-right: 25px
+  }
+}
+
+/* max-height */
+.css-ani .ex-max-height-box .ex-max-height {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-max-height-box .ex-max-height .ex-max-height-1 {
+  width: 100%;
+  height: 0%;
+  max-height: 125px;
+  background: #FF0000;
+  -webkit-animation-name: max-height-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: max-height-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes max-height-ani {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  100% {
+    height: 100%
+  }
+}
+
+@keyframes max-height-ani {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  100% {
+    height: 100%
+  }
+}
+
+/* max-width */
+.css-ani .ex-max-width-box .ex-max-width {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-max-width-box .ex-max-width .ex-max-width-1 {
+  height: 100%;
+  width: 0%;
+  max-width: 125px;
+  background: #00FF00;
+  -webkit-animation-name: max-width-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: max-width-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes max-width-ani {
+  0% {
+    width: 0%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  100% {
+    width: 100%
+  }
+}
+
+@keyframes max-width-ani {
+  0% {
+    width: 0%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  100% {
+    width: 100%
+  }
+}
+
+/* min-height */
+.css-ani .ex-min-height-box .ex-min-height {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-min-height-box .ex-min-height .ex-min-height-1 {
+  width: 100%;
+  height: 100%;
+  min-height: 25px;
+  background: #0000FF;
+  -webkit-animation-name: min-height-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: min-height-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes min-height-ani {
+  0% {
+    height: 100%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  100% {
+    height: 0%
+  }
+}
+
+@keyframes min-height-ani {
+  0% {
+    height: 100%
+  }
+
+  50% {
+    height: 50%
+  }
+
+  100% {
+    height: 0%
+  }
+}
+
+/* min-width */
+.css-ani .ex-min-width-box .ex-min-width {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-min-width-box .ex-min-width .ex-min-width-1 {
+  height: 100%;
+  width: 100%;
+  min-width: 25px;
+  background: #CCCCCC;
+  -webkit-animation-name: min-width-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: min-width-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes min-width-ani {
+  0% {
+    width: 100%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  100% {
+    width: 0%
+  }
+}
+
+@keyframes min-width-ani {
+  0% {
+    width: 100%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  100% {
+    width: 0%
+  }
+}
+
+/* opacity */
+.css-ani .ex-opacity-box .ex-opacity {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-opacity-box .ex-opacity .ex-opacity-img {
+  margin: auto;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  -webkit-animation-name: opacity-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes opacity-ani {
+  0% {
+    opacity: 1
+  }
+
+  25% {
+    opacity: 0.75
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  75% {
+    opacity: 0.25
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes opacity-ani {
+  0% {
+    opacity: 1
+  }
+
+  25% {
+    opacity: 0.75
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  75% {
+    opacity: 0.25
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+/* outline */
+.css-ani .ex-outline-box .ex-outline {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-outline-box .ex-outline .ex-outline-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  outline: 0;
+  -webkit-animation-name: outline-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: outline-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes outline-ani {
+  0% {
+    outline: 0
+  }
+
+  25% {
+    outline: 1px dashed #0000FF
+  }
+
+  50% {
+    outline: 5px dashed #0000FF
+  }
+
+  75% {
+    outline: 10px dashed #0000FF
+  }
+
+  100% {
+    outline: 20px dashed #0000FF
+  }
+}
+
+@keyframes outline-ani {
+  0% {
+    outline: 0
+  }
+
+  25% {
+    outline: 1px dashed #0000FF
+  }
+
+  50% {
+    outline: 5px dashed #0000FF
+  }
+
+  75% {
+    outline: 10px dashed #0000FF
+  }
+
+  100% {
+    outline: 20px dashed #0000FF
+  }
+}
+
+/* outline-color */
+.css-ani .ex-outline-color-box .ex-outline-color {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-outline-color-box .ex-outline-color .ex-outline-color-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  outline: 10px dashed #FF0000;
+  -webkit-animation-name: outline-color-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: outline-color-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes outline-color-ani {
+  0% {
+    outline-color: #FF0000
+  }
+
+  25% {
+    outline-color: #887700
+  }
+
+  50% {
+    outline-color: #00FF00
+  }
+
+  75% {
+    outline-color: #007788
+  }
+
+  100% {
+    outline-color: #0000FF
+  }
+}
+
+@keyframes outline-color-ani {
+  0% {
+    outline-color: #FF0000
+  }
+
+  25% {
+    outline-color: #887700
+  }
+
+  50% {
+    outline-color: #00FF00
+  }
+
+  75% {
+    outline-color: #007788
+  }
+
+  100% {
+    outline-color: #0000FF
+  }
+}
+
+/* outline-offset */
+.css-ani .ex-outline-offset-box .ex-outline-offset {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-outline-offset-box .ex-outline-offset .ex-outline-offset-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  outline: 5px dashed #FF0000;
+  outline-offset: 0;
+  -webkit-animation-name: outline-offset-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: outline-offset-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes outline-offset-ani {
+  0% {
+    outline-offset: 0
+  }
+
+  25% {
+    outline-offset: 3px
+  }
+
+  50% {
+    outline-offset: 5px
+  }
+
+  75% {
+    outline-offset: 10px
+  }
+
+  100% {
+    outline-offset: 15px
+  }
+}
+
+@keyframes outline-offset-ani {
+  0% {
+    outline-offset: 0
+  }
+
+  25% {
+    outline-offset: 3px
+  }
+
+  50% {
+    outline-offset: 5px
+  }
+
+  75% {
+    outline-offset: 10px
+  }
+
+  100% {
+    outline-offset: 15px
+  }
+}
+
+/* outline-style */
+.css-ani .ex-outline-style-box .ex-outline-style {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-outline-style-box .ex-outline-style .ex-outline-style-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  outline: 5px solid #00FF00;
+  -webkit-animation-name: outline-style-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: outline-style-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes outline-style-ani {
+  0% {
+    outline-style: solid
+  }
+
+  14% {
+    outline-style: dotted
+  }
+
+  28% {
+    outline-style: dashed
+  }
+
+  42% {
+    outline-style: double
+  }
+
+  56% {
+    outline-style: groove
+  }
+
+  70% {
+    outline-style: ridge
+  }
+
+  84% {
+    outline-style: inset
+  }
+
+  98% {
+    outline-style: outset
+  }
+}
+
+@keyframes outline-style-ani {
+  0% {
+    outline-style: solid
+  }
+
+  14% {
+    outline-style: dotted
+  }
+
+  28% {
+    outline-style: dashed
+  }
+
+  42% {
+    outline-style: double
+  }
+
+  56% {
+    outline-style: groove
+  }
+
+  70% {
+    outline-style: ridge
+  }
+
+  84% {
+    outline-style: inset
+  }
+
+  98% {
+    outline-style: outset
+  }
+}
+
+/* outline-width */
+.css-ani .ex-outline-width-box .ex-outline-width {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-outline-width-box .ex-outline-width .ex-outline-width-1 {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  background: #CCCCCC;
+  border: 1px solid #000000;
+  outline: 1px solid #0000FF;
+  outline-width: 1px;
+  -webkit-animation-name: outline-width-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: outline-width-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes outline-width-ani {
+  0% {
+    outline-width: 1px
+  }
+
+  25% {
+    outline-width: 5px
+  }
+
+  50% {
+    outline-width: 7px
+  }
+
+  75% {
+    outline-width: 10px
+  }
+
+  100% {
+    outline-width: 15px
+  }
+}
+
+@keyframes outline-width-ani {
+  0% {
+    outline-width: 1px
+  }
+
+  25% {
+    outline-width: 5px
+  }
+
+  50% {
+    outline-width: 7px
+  }
+
+  75% {
+    outline-width: 10px
+  }
+
+  100% {
+    outline-width: 15px
+  }
+}
+
+/* overflow */
+.css-ani .ex-overflow-box .ex-overflow {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-overflow-box .ex-overflow .ex-overflow-1 {
+  color: #FFFFFF;
+  background: #AAAAAA;
+  width: 100%;
+  height: 100px;
+  overflow: visible;
+  -webkit-animation-name: overflow-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: overflow-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes overflow-ani {
+  0% {
+    overflow: visible
+  }
+
+  33% {
+    overflow: hidden
+  }
+
+  66% {
+    overflow: scroll
+  }
+
+  99% {
+    overflow: auto
+  }
+}
+
+@keyframes overflow-ani {
+  0% {
+    overflow: visible
+  }
+
+  33% {
+    overflow: hidden
+  }
+
+  66% {
+    overflow: scroll
+  }
+
+  99% {
+    overflow: auto
+  }
+}
+
+/* padding */
+.css-ani .ex-padding-box .ex-padding {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-padding-box .ex-padding .ex-padding-1 {
+  color: #FFFFFF;
+  padding: 0;
+  -webkit-animation-name: padding-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: padding-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes padding-ani {
+  0% {
+    padding: 0
+  }
+
+  25% {
+    padding-left: 5px;
+	padding-right: 5px
+  }
+
+  50% {
+    padding-left: 10px;
+	padding-right: 10px
+  }
+
+  75% {
+    padding-left: 15px;
+	padding-right: 15px
+  }
+
+  100% {
+    padding-left: 25px;
+	padding-right: 25px
+  }
+}
+
+@keyframes padding-ani {
+  0% {
+    padding: 0
+  }
+
+  25% {
+    padding-left: 5px;
+	padding-right: 5px
+  }
+
+  50% {
+    padding-left: 10px;
+	padding-right: 10px
+  }
+
+  75% {
+    padding-left: 15px;
+	padding-right: 15px
+  }
+
+  100% {
+    padding-left: 25px;
+	padding-right: 25px
+  }
+}
+
+/* tab-size */
+.css-ani .ex-tab-size-box .ex-tab-size {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-animation-name: tab-size-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: tab-size-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes tab-size-ani {
+  0% {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4
+  }
+
+  50% {
+    -moz-tab-size: 8;
+    -o-tab-size: 8;
+    tab-size: 8
+  }
+
+  100% {
+    -moz-tab-size: 16;
+    -o-tab-size: 16;
+    tab-size: 16
+  }
+}
+
+@keyframes tab-size-ani {
+  0% {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4
+  }
+
+  50% {
+    -moz-tab-size: 8;
+    -o-tab-size: 8;
+    tab-size: 8
+  }
+
+  100% {
+    -moz-tab-size: 16;
+    -o-tab-size: 16;
+    tab-size: 16
+  }
+}
+
+/* text-align */
+.css-ani .ex-text-align-box .ex-text-align {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-align: left;
+  -webkit-animation-name: text-align-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-align-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-align-ani {
+  0% {
+    text-align: left
+  }
+
+  33% {
+    text-align: center
+  }
+
+  66% {
+    text-align: right
+  }
+
+  99% {
+    text-align: justify
+  }
+}
+
+@keyframes text-align-ani {
+  0% {
+    text-align: left
+  }
+
+  33% {
+    text-align: center
+  }
+
+  66% {
+    text-align: right
+  }
+
+  99% {
+    text-align: justify
+  }
+}
+
+/* text-decoration */
+.css-ani .ex-text-decoration-box .ex-text-decoration {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-animation-name: text-decoration-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-decoration-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-decoration-ani {
+  0% {
+    text-decoration: none
+  }
+
+  50% {
+    text-decoration: underline #FF0000 solid
+  }
+
+  100% {
+    text-decoration: none
+  }
+}
+
+@keyframes text-decoration-ani {
+  0% {
+    text-decoration: none
+  }
+
+  50% {
+    text-decoration: underline #FF0000 solid
+  }
+
+  100% {
+    text-decoration: none
+  }
+}
+
+/* text-decoration-color */
+.css-ani .ex-text-decoration-color-box .ex-text-decoration-color {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-decoration: underline #FF0000 solid;
+  -webkit-animation-name: text-decoration-color-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-decoration-color-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-decoration-color-ani {
+  0% {
+    text-decoration-color: #FF0000
+  }
+
+  25% {
+    text-decoration-color: #887700
+  }
+
+  50% {
+    text-decoration-color: #00FF00
+  }
+
+  75% {
+    text-decoration-color: #007788
+  }
+
+  100% {
+    text-decoration-color: #0000FF
+  }
+}
+
+@keyframes text-decoration-color-ani {
+  0% {
+    text-decoration-color: #FF0000
+  }
+
+  25% {
+    text-decoration-color: #887700
+  }
+
+  50% {
+    text-decoration-color: #00FF00
+  }
+
+  75% {
+    text-decoration-color: #007788
+  }
+
+  100% {
+    text-decoration-color: #0000FF
+  }
+}
+
+/* text-decoration-line */
+.css-ani .ex-text-decoration-line-box .ex-text-decoration-line {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-decoration: underline #FF0000 solid;
+  -webkit-animation-name: text-decoration-line-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-decoration-line-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-decoration-line-ani {
+  0% {
+    text-decoration-line: underline
+  }
+
+  50% {
+    text-decoration-line: overline
+  }
+
+  100% {
+    text-decoration-line: line-through
+  }
+}
+
+@keyframes text-decoration-line-ani {
+  0% {
+    text-decoration-line: underline
+  }
+
+  50% {
+    text-decoration-line: overline
+  }
+
+  100% {
+    text-decoration-line: line-through
+  }
+}
+
+/* text-decoration-style */
+.css-ani .ex-text-decoration-style-box .ex-text-decoration-style {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-decoration: underline #FF0000 solid;
+  -webkit-animation-name: text-decoration-style-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-decoration-style-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-decoration-style-ani {
+  0% {
+    text-decoration-style: solid
+  }
+
+  25% {
+    text-decoration-style: double
+  }
+
+  50% {
+    text-decoration-style: dotted
+  }
+
+  75% {
+    text-decoration-style: dashed
+  }
+
+  100% {
+    text-decoration-style: wavy
+  }
+}
+
+@keyframes text-decoration-style-ani {
+  0% {
+    text-decoration-style: solid
+  }
+
+  25% {
+    text-decoration-style: double
+  }
+
+  50% {
+    text-decoration-style: dotted
+  }
+
+  75% {
+    text-decoration-style: dashed
+  }
+
+  100% {
+    text-decoration-style: wavy
+  }
+}
+
+/* text-indent */
+.css-ani .ex-text-indent-box .ex-text-indent {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-indent: 0;
+  -webkit-animation-name: text-indent-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-indent-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-indent-ani {
+  0% {
+    text-indent: 0
+  }
+
+  25% {
+    text-indent: 5px
+  }
+
+  50% {
+    text-indent: 10px
+  }
+
+  75% {
+    text-indent: 20px
+  }
+
+  100% {
+    text-indent: 50px
+  }
+}
+
+@keyframes text-indent-ani {
+  0% {
+    text-indent: 0
+  }
+
+  25% {
+    text-indent: 5px
+  }
+
+  50% {
+    text-indent: 10px
+  }
+
+  75% {
+    text-indent: 20px
+  }
+
+  100% {
+    text-indent: 50px
+  }
+}
+
+/* text-justify */
+.css-ani .ex-text-justify-box .ex-text-justify {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-align: justify;
+  text-justify: none;
+  -webkit-animation-name: text-justify-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-justify-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-justify-ani {
+  0% {
+    text-justify: none
+  }
+
+  33% {
+    text-justify: inter-word
+  }
+
+  66% {
+    text-justify: inter-character
+  }
+
+  99% {
+    text-justify: auto
+  }
+}
+
+@keyframes text-justify-ani {
+  0% {
+    text-justify: none
+  }
+
+  33% {
+    text-justify: inter-word
+  }
+
+  66% {
+    text-justify: inter-character
+  }
+
+  99% {
+    text-justify: auto
+  }
+}
+
+/* text-overflow */
+.css-ani .ex-text-overflow-box .ex-text-overflow {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-text-overflow-box .ex-text-overflow .ex-text-overflow-1 {
+  color: #FFFFFF;
+  width: 100%;
+  height: 75px;
+  text-overflow: clip;
+  -webkit-animation-name: text-overflow-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-overflow-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-overflow-ani {
+  0% {
+    text-overflow: clip
+  }
+
+  50% {
+    text-overflow: ellipsis
+  }
+
+  100% {
+    text-overflow: "[etc]"
+  }
+}
+
+@keyframes text-overflow-ani {
+  0% {
+    text-overflow: clip
+  }
+
+  50% {
+    text-overflow: ellipsis
+  }
+
+  100% {
+    text-overflow: "[etc]"
+  }
+}
+
+/* text-shadow */
+.css-ani .ex-text-shadow-box .ex-text-shadow {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 42px;
+  text-shadow: 5px 5px 7px #FF0000;
+  -webkit-animation-name: text-shadow-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-shadow-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-shadow-ani {
+  0% {
+    text-shadow: -5px -5px 7px #FF0000
+  }
+
+  25% {
+    text-shadow: 5px -5px 7px #00FF00
+  }
+
+  50% {
+    text-shadow: 5px 5px 7px #0000FF
+  }
+
+  75% {
+    text-shadow: -5px 5px 7px #CCCCCC
+  }
+
+  100% {
+    text-shadow: -5px -5px 7px #FF0000
+  }
+}
+
+@keyframes text-shadow-ani {
+  0% {
+    text-shadow: -5px -5px 7px #FF0000
+  }
+
+  25% {
+    text-shadow: 5px -5px 7px #00FF00
+  }
+
+  50% {
+    text-shadow: 5px 5px 7px #0000FF
+  }
+
+  75% {
+    text-shadow: -5px 5px 7px #CCCCCC
+  }
+
+  100% {
+    text-shadow: -5px -5px 7px #FF0000
+  }
+}
+
+/* text-transform */
+.css-ani .ex-text-transform-box .ex-text-transform {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  text-transform: none;
+  -webkit-animation-name: text-transform-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: text-transform-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes text-transform-ani {
+  0% {
+    text-transform: none
+  }
+
+  33% {
+    text-transform: capitalize
+  }
+
+  66% {
+    text-transform: uppercase
+  }
+
+  99% {
+    text-transform: lowercase
+  }
+}
+
+@keyframes text-transform-ani {
+  0% {
+    text-transform: none
+  }
+
+  33% {
+    text-transform: capitalize
+  }
+
+  66% {
+    text-transform: uppercase
+  }
+
+  99% {
+    text-transform: lowercase
+  }
+}
+
+/* vertical-align */
+.css-ani .ex-vertical-align-box .ex-vertical-align {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  vertical-align: baseline;
+  -webkit-animation-name: vertical-align-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: vertical-align-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes vertical-align-ani {
+  0% {
+    vertical-align: baseline
+  }
+
+  14% {
+    vertical-align: sub
+  }
+
+  28% {
+    vertical-align: super
+  }
+
+  42% {
+    vertical-align: top
+  }
+
+  56% {
+    vertical-align: text-top
+  }
+
+  70% {
+    vertical-align: middle
+  }
+
+  84% {
+    vertical-align: bottom
+  }
+
+  98 % {
+    vertical-align: text-bottom
+  }
+}
+
+@keyframes vertical-align-ani {
+  0% {
+    vertical-align: baseline
+  }
+
+  14% {
+    vertical-align: sub
+  }
+
+  28% {
+    vertical-align: super
+  }
+
+  42% {
+    vertical-align: top
+  }
+
+  56% {
+    vertical-align: text-top
+  }
+
+  70% {
+    vertical-align: middle
+  }
+
+  84% {
+    vertical-align: bottom
+  }
+
+  98 % {
+    vertical-align: text-bottom
+  }
+}
+
+/* visibility */
+.css-ani .ex-visibility-box .ex-visibility {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-visibility-box .ex-visibility .ex-visibility-img {
+  margin: auto;
+  width: auto;
+  height: auto;
+  visibility: visible;
+  -webkit-animation-name: visibility-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: visibility-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes visibility-ani {
+  0% {
+    visibility: visible
+  }
+
+  50% {
+    visibility: hidden
+  }
+
+  100% {
+    visibility: visible
+  }
+}
+
+@keyframes visibility-ani {
+  0% {
+    visibility: visible
+  }
+
+  50% {
+    visibility: hidden
+  }
+
+  100% {
+    visibility: visible
+  }
+}
+
+/* white-space */
+.css-ani .ex-white-space-box .ex-white-space {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  white-space: normal;
+  -webkit-animation-name: white-space-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: white-space-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes white-space-ani {
+  0% {
+    white-space: normal
+  }
+
+  25% {
+    white-space: nowrap
+  }
+
+  50% {
+    white-space: pre
+  }
+
+  75% {
+    white-space: pre-line
+  }
+
+  100% {
+    white-space: pre-wrap
+  }
+}
+
+@keyframes white-space-ani {
+  0% {
+    white-space: normal
+  }
+
+  25% {
+    white-space: nowrap
+  }
+
+  50% {
+    white-space: pre
+  }
+
+  75% {
+    white-space: pre-line
+  }
+
+  100% {
+    white-space: pre-wrap
+  }
+}
+
+/* width */
+.css-ani .ex-width-box .ex-width {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000
+}
+
+.css-ani .ex-width-box .ex-width .ex-width-1 {
+  width: 100%;
+  height: 100%;
+  background: #FF0000;
+  -webkit-animation-name: width-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: width-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes width-ani {
+  0% {
+    width: 100%
+  }
+
+  25% {
+    width: 75%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  75% {
+    width: 25%
+  }
+
+  100% {
+    width: 0%
+  }
+}
+
+@keyframes width-ani {
+  0% {
+    width: 100%
+  }
+
+  25% {
+    width: 75%
+  }
+
+  50% {
+    width: 50%
+  }
+
+  75% {
+    width: 25%
+  }
+
+  100% {
+    width: 0%
+  }
+}
+
+/* word-break */
+.css-ani .ex-word-break-box .ex-word-break {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  word-break: normal;
+  -webkit-animation-name: word-break-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: word-break-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes word-break-ani {
+  0% {
+    word-break: normal
+  }
+
+  33% {
+    word-break: break-all
+  }
+
+  66% {
+    word-break: keep-all
+  }
+
+  99% {
+    word-break: break-word
+  }
+}
+
+@keyframes word-break-ani {
+  0% {
+    word-break: normal
+  }
+
+  33% {
+    word-break: break-all
+  }
+
+  66% {
+    word-break: keep-all
+  }
+
+  99% {
+    word-break: break-word
+  }
+}
+
+/* word-spacing */
+.css-ani .ex-word-spacing-box .ex-word-spacing {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  color: #FFFFFF;
+  word-spacing: normal;
+  -webkit-animation-name: word-spacing-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: word-spacing-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes word-spacing-ani {
+  0% {
+    word-spacing: normal
+  }
+
+  25% {
+    word-spacing: 2px
+  }
+
+  50% {
+    word-spacing: 5px
+  }
+
+  75% {
+    word-spacing: 10px
+  }
+
+  100% {
+    word-spacing: 20px
+  }
+}
+
+@keyframes word-spacing-ani {
+  0% {
+    word-spacing: normal
+  }
+
+  25% {
+    word-spacing: 2px
+  }
+
+  50% {
+    word-spacing: 5px
+  }
+
+  75% {
+    word-spacing: 10px
+  }
+
+  100% {
+    word-spacing: 20px
+  }
+}
+
+/* z-index */
+.css-ani .ex-z-index-box .ex-z-index {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000000;
+  z-index: 1
+}
+
+.css-ani .ex-z-index-box .ex-z-index .ex-z-index-1 {
+  width: 150px;
+  height: 150px;
+  color: #FFFFFF;
+  z-index: 2;
+  -webkit-animation-name: z-index-ani;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: z-index-ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes z-index-ani {
+  0% {
+    z-index: 2
+  }
+
+  50% {
+    z-index: -9999999
+  }
+
+  100% {
+    z-index: 2
+  }
+}
+
+@keyframes z-index-ani {
+  0% {
+    z-index: 2
+  }
+
+  50% {
+    z-index: -9999999
+  }
+
+  100% {
+    z-index: 2
+  }
+}

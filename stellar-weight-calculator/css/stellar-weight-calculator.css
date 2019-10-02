@@ -1,0 +1,99 @@
+.swc-box .inputs-box {
+  border-bottom: 1px solid #000000
+}
+
+.swc-box .stellar {
+  padding-top: 15px
+}
+
+.swc-box .stellar .stellar-name {
+  color: #FFFFFF
+}
+
+.swc-box .stellar .stellar-name.mercury {
+  background: #302F69;
+  background: -moz-radial-gradient(center, ellipse cover, #302F69 0%, #C29D60 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #302F69 0%,#C29D60 100%);
+  background: radial-gradient(ellipse at center, #302F69 0%,#C29D60 100%)
+}
+
+.swc-box .stellar .stellar-name.venus {
+  background: #8C3E0E;
+  background: -moz-radial-gradient(center, ellipse cover, #8C3E0E 0%, #FFDD7D 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #8C3E0E 0%,#FFDD7D 100%);
+  background: radial-gradient(ellipse at center, #8C3E0E 0%,#FFDD7D 100%)
+}
+
+.swc-box .stellar .stellar-name.earth {
+  background: #081655;
+  background: -moz-radial-gradient(center, ellipse cover, #081655 0%, #3D6C36 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #081655 0%,#3D6C36 100%);
+  background: radial-gradient(ellipse at center, #081655 0%,#3D6C36 100%)
+}
+
+.swc-box .stellar .stellar-name.moon {
+  background: #75696B;
+  background: -moz-radial-gradient(center, ellipse cover, #75696B 0%, #E8d5D7 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #75696B 0%,#E8d5D7 100%);
+  background: radial-gradient(ellipse at center, #75696B 0%,#E8d5D7 100%)
+}
+
+.swc-box .stellar .stellar-name.mars {
+  background: #554C3B;
+  background: -moz-radial-gradient(center, ellipse cover, #554C3B 0%, #E48F55 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #554C3B 0%,#E48F55 100%);
+  background: radial-gradient(ellipse at center, #554C3B 0%,#E48F55 100%)
+}
+
+.swc-box .stellar .stellar-name.jupiter {
+  background: #B97F33;
+  background: -moz-radial-gradient(center, ellipse cover, #B97F33 0%, #CED0DE 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #B97F33 0%,#CED0DE 100%);
+  background: radial-gradient(ellipse at center, #B97F33 0%,#CED0DE 100%)
+}
+
+.swc-box .stellar .stellar-name.saturn {
+  background: #697350;
+  background: -moz-radial-gradient(center, ellipse cover, #697350 0%, #E0D095 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #697350 0%,#E0D095 100%);
+  background: radial-gradient(ellipse at center, #697350 0%,#E0D095 100%)
+}
+
+.swc-box .stellar .stellar-name.uranus {
+  background: #72949D;
+  background: -moz-radial-gradient(center, ellipse cover, #72949D 0%, #CBF1F4 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #72949D 0%,#CBF1F4 100%);
+  background: radial-gradient(ellipse at center, #72949D 0%,#CBF1F4 100%)
+}
+
+.swc-box .stellar .stellar-name.neptune {
+  background: #343EB2;
+  background: -moz-radial-gradient(center, ellipse cover, #343EB2 0%, #78E2FA 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #343EB2 0%,#78E2FA 100%);
+  background: radial-gradient(ellipse at center, #343EB2 0%,#78E2FA 100%)
+}
+
+.swc-box .stellar .stellar-name.pluto {
+  background: #2A2321;
+  background: -moz-radial-gradient(center, ellipse cover, #2A2321 0%, #9B8C7E 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #2A2321 0%,#9B8C7E 100%);
+  background: radial-gradient(ellipse at center, #2A2321 0%,#9B8C7E 100%)
+}
+
+.swc-box .stellar .even {
+  border: 0
+}
+
+@media only screen and (max-width: 768px) {
+  .swc-box .stellar {
+    padding-top: 0
+  }
+
+  .swc-box .stellar .odd {
+	padding-top: 15px
+  }
+
+ .swc-box .stellar .even {
+	padding-top: 15px
+  }
+}

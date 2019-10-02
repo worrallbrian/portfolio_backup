@@ -1,0 +1,37 @@
+.fs .fs-form {
+  text-align: center;
+  margin-top: 15px
+}
+
+.fs .fs-form input {
+  text-align: center
+}
+
+.fs .fs-form .denom-group {
+  margin-top: 15px;
+  border-top: 1px solid #000000;
+  padding-top: 15px
+}
+
+.fs .fs-form .submit_btn-group {
+  margin-top: 15px
+}
+
+.fs .result_box {
+  text-align: center;
+  margin-top: 35px
+}
+
+.fs .result_box .result_equals {
+  text-align: center;
+  margin-top: 35px
+}
+
+.fs .result_box .values_box {
+  text-align: center;
+  margin-top: 35px
+}
+
+.fs .result_box .values_box .separator_hr {
+  width: 250px
+}

@@ -1,0 +1,289 @@
+/* Custom fonts */
+@font-face {
+  font-family: "MINI-Sans";
+  src: url("../fonts/MINI-Sans/mini_sans-medium-webfont.eot");
+  src: url("../fonts/MINI-Sans/mini_sans-medium-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MINI-Sans/mini_sans-medium-webfont.woff2") format("woff2"),
+    url("../fonts/MINI-Sans/mini_sans-medium-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MINI-Serif";
+  src: url("../fonts/MINI-Serif/mini_serif-regular-webfont.eot");
+  src: url("../fonts/MINI-Serif/mini_serif-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MINI-Serif/mini_serif-regular-webfont.woff2") format("woff2"),
+    url("../fonts/MINI-Serif/mini_serif-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MINI-Serif-bold";
+  src: url("../fonts/MINI-Serif/mini_serif-bold-webfont.eot");
+  src: url("../fonts/MINI-Serif/mini_serif-bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MINI-Serif/mini_serif-bold-webfont.woff2") format("woff2"),
+    url("../fonts/MINI-Serif/mini_serif-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MINI-Serif-italic";
+  src: url("../fonts/MINI-Serif/mini_serif-italic-webfont.eot");
+  src: url("../fonts/MINI-Serif/mini_serif-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MINI-Serif/mini_serif-italic-webfont.woff2") format("woff2"),
+    url("../fonts/MINI-Serif/mini_serif-italic-webfont.woff") format("woff");
+}
+
+/* Classes */
+.mini-all4 {
+  font: "MINI-Serif", arial, serif
+}
+
+.mini-all4 .program-loading {
+  text-align: center;
+  min-height: 65px;
+  height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.mini-all4 .video-box {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  height: auto
+}
+
+.mini-all4 .video-box .video-image-box {
+  margin-right: 5px
+}
+
+.mini-all4 .video-box .video-image-box .inner-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 25%;
+  left: 0;
+  font: "MINI-Sans", arial, serif;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.mini-all4 .video-box .video-image-box .inner-text .text-1 {
+  font-size: 75%
+}
+
+.mini-all4 .video-box .video-image-box .inner-text .text-2 {
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom: 10px
+}
+
+.mini-all4 .video-box .video-image-box .inner-text .play-button-box .play-button {
+  opacity: 1;
+  cursor: pointer
+}
+
+.mini-all4 .video-box .video-image-box .inner-text .play-button-box .play-button:hover {
+  opacity: 0.7
+}
+
+.mini-all4 .video-box .video-image-box .video-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+.mini-all4 .banner-box {
+  margin-bottom: 15px;
+  text-align: center
+}
+
+.mini-all4 .banner-box .text-1 {
+  font: "MINI-Sans";
+  font-size: 125%
+}
+
+.mini-all4 .banner-box .text-2 {
+  margin-bottom: 5px;
+  font: "MINI-Sans", arial, serif;
+  font-weight: bold;
+  font-size: 150%
+}
+
+.mini-all4 .featured-box  {
+  margin-bottom: 15px
+}
+
+.mini-all4 .featured-box .feature {
+  margin-bottom: 15px
+}
+
+.mini-all4 .featured-box .feature .info-box {
+  text-align: center;
+  margin: auto
+}
+
+.mini-all4 .featured-box .feature .info-box .car-name {
+  font: "MINI-Serif-bold", arial, serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 75%;
+  text-align: left
+}
+
+.mini-all4 .featured-box .feature .info-box .car-text {
+  margin-bottom: 10px;
+  font-size: 65%;
+  text-align: left
+}
+
+.mini-all4 .featured-box .feature .info-box .buttons-box .button-box .learn-more {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 65%
+}
+
+.mini-all4 .featured-box .feature .info-box .buttons-box .button-box .build-price {
+  width: 100%;
+  font-size: 65%
+}
+
+.mini-all4 .featured-box .feature .car-img-box .car-img {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+.mini-all4 .forsale-box {
+  text-align: center
+}
+
+.mini-all4 .forsale-box .forsale {
+  margin-bottom: 15px;
+  text-align: left
+}
+
+.mini-all4 .forsale-box .forsale .model-name {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 75%;
+  margin-bottom: 10px
+}
+
+.mini-all4 .forsale-box .forsale .price {
+  font-weight: bold;
+  font-size: 75%;
+  margin-bottom: 10px
+}
+
+.mini-all4 .forsale-box .forsale .car-img-box {
+  margin-bottom: 10px
+}
+
+.mini-all4 .forsale-box .forsale .car-img-box .car-img {
+  width: 90%;
+  height: 125px;
+  display; block
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl {
+  margin-bottom: 10px;
+  display: table;
+  width: 100%;
+  font-size: 65%
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr {
+  display: table-row
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr .car-details-td1 {
+  display: table-cell;
+  font-weight: bold;
+  margin-right: 5px
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr .car-details-td2 {
+  display: table-cell
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr.exterior  .car-details-td1 {
+  padding-bottom: 15px
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr.exterior  .car-details-td2 {
+  padding-bottom: 15px
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr.interior .car-details-td1 {
+  padding-bottom: 15px
+}
+
+.mini-all4 .forsale-box .forsale .car-details-tbl .car-details-tr.interior .car-details-td2 {
+  padding-bottom: 15px
+}
+
+.mini-all4 .forsale-box .forsale .buttons-box .button-box .view-details {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 65%
+}
+
+.mini-all4 .forsale-box .forsale .buttons-box .button-box .book-test-drive {
+  width: 100%;
+  font-size: 65%
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .mini-all4 .video-box .video-image-box .inner-text .text-1 {
+    font-size: 100%
+  }
+
+  .mini-all4 .video-box .video-image-box .inner-text .text-2 {
+    font-size: 100%
+  }
+  
+  .mini-all4 .featured-box .feature .info-box .car-name {
+    font-size: 110%
+  }
+  
+  .mini-all4 .featured-box .feature .info-box .car-text {
+    font-size: 100%
+  }
+  
+  .mini-all4 .featured-box .feature .info-box .buttons-box .button-box .learn-more {
+    font-size: 80%
+  }
+  
+  .mini-all4 .featured-box .feature .info-box .buttons-box .button-box .build-price {
+    font-size: 80%
+  }
+  
+  .mini-all4 .forsale-box .forsale .model-name {
+    font-size: 110%
+  }
+  
+  .mini-all4 .forsale-box .forsale .price {
+    font-size: 110%
+  }
+  
+  .mini-all4 .forsale-box .forsale .car-img-box .car-img {
+    width: 100%
+  }
+  
+  .mini-all4 .forsale-box .forsale .buttons-box .button-box .view-details {
+    font-size: 80%
+  }
+  
+  .mini-all4 .forsale-box .forsale .buttons-box .button-box .book-test-drive {
+    font-size: 80%
+  }
+  
+  .mini-all4 .forsale-box .forsale .car-details-tbl {
+    font-size: 100%
+  }
+}

@@ -1,0 +1,99 @@
+.form-part1 .league-box {
+  padding-left: 0
+}
+
+.form-part1 .numgames-box {
+  padding-left: 0
+}
+
+.form-part1 .divider-box {
+  padding-left: 0
+}
+
+.form-part1 .submit-box {
+  padding-left: 0
+}
+
+.form-part2 .submit-box {
+  margin-bottom: 15px
+}
+
+.form-part2 .matchup .competitor {
+  margin-bottom: 15px
+}
+
+.form-part2 .matchup .vs-box {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.form-part2 .matchup .opponent {
+  margin-bottom: 15px
+}
+
+.form-part2 .matchup .over-under {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000000
+}
+
+.form-part2 .hidden-div {
+  display: none
+}
+
+.finale .league-results .results {
+  text-decoration: underline
+}
+
+.finale .winner-box {
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000000;
+  color: #000000
+}
+
+.finale .winner-box:hover {
+  cursor: pointer
+}
+
+.finale .winner-box.slashed {
+  text-decoration: line-through;
+  color: #FF0000
+}
+
+.finale .winner-box .winner {
+  font-weight: bold
+}
+
+.finale .winner-box .over-under {
+  font-weight: bold
+}
+
+.finale .pickx-header {
+  font-weight: bold;
+  font-style: italic
+}
+
+.finale .pickx-results-box .pickx-results {
+  margin-bottom: 15px
+}
+
+.finale .pickx-results-box .pickx-results .pickx-result {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000
+}
+
+.finale .pickx-results-box .pickx-results .pickx-result:hover {
+  cursor: pointer
+}
+
+.finale .pickx-results-box .pickx-results .pickx-result.slashed {
+  text-decoration: line-through;
+  color: #FF0000
+}
+
+.finale .form-part3 {
+  margin-top: 15px
+}

@@ -1,0 +1,69 @@
+.infinite-z .preamble-box {
+  border-bottom: 1px dotted #CCCCCC !important;
+  border-bottom: 10px;
+  margin-bottom: 15px
+}
+
+.infinite-z .z-box {
+  text-align: center;
+  margin-bottom: 15px
+}
+
+.infinite-z .form-box {
+  border-bottom: 1px dotted #CCCCCC !important;
+  border-bottom: 10px;
+  margin-bottom: 15px
+}
+
+.infinite-z .form-box .form-inline > .form-group {
+  vertical-align: top
+}
+
+.infinite-z .form-box .activate-button:focus {
+  background-color: #E0A800;
+  border-color: #D39E00
+}
+
+.infinite-z .stage-box .stage .begin-div {
+  text-align: center
+}
+
+.infinite-z .stage-box .stage .program-loading {
+  text-align: center;
+  min-height: 65px;
+  height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.infinite-z .stage-box .stage .no-results {
+  text-align: center;
+  font-size: 115%;
+  font-weight: bold;
+  margin: 15px 10px 15px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
+.infinite-z .stage-box .stage .results {
+  text-align: left;
+  font-size: 115%
+}
+
+.infinite-z .stage-box .stage .results .ape-word {
+  text-decoration: none;
+  color: #000000
+}
+
+.infinite-z .stage-box .stage .results .ape-word:hover {
+  cursor: pointer
+}
+
+.infinite-z .stage-box .stage .results .ape-word.slashed {
+  text-decoration: line-through;
+  color: #FF0000;
+  font-size: 75%
+}

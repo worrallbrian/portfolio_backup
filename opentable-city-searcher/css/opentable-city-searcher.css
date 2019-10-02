@@ -1,0 +1,131 @@
+.otcs .message-row {
+  margin-bottom: 15px
+}
+
+.otcs .message-row .logo {
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.otcs .form-row {
+  margin-bottom: 10px
+}
+
+.otcs .form-row .city-box {
+  margin-bottom: 10px
+}
+
+.otcs .form-row .province-box {
+  margin-bottom: 10px
+}
+
+.otcs .form-row .province-box .province {
+  width: 100%;
+   padding-left: 11.2px
+}
+
+.otcs .form-row .country-box {
+  margin-bottom: 15px
+}
+
+.otcs .form-row .country-box .country {
+  width: 100%;
+  padding-left: 11.2px
+}
+
+.otcs .form-row .submitButton-box {
+  text-align: center
+}
+
+.otcs .result-row .result-box {
+  text-align: center
+}
+
+.otcs .result-row .result-box .restaurant {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid #DA3743;
+  border-radius: 5px;
+  background: #333333;
+  color: #FFFFFF;
+  text-align: left;
+  cursor: pointer
+}
+
+.otcs .result-row .result-box .restaurant:hover {
+  background: #555555
+}
+
+.otcs .result-row .result-box .restaurant .name {
+  font-size: 150%
+}
+
+.otcs .result-row .result-box .restaurant .name .name-value .name-anchor {
+  color: #FFFFFF
+}
+
+.otcs .result-row .result-box .restaurant .name .name-value .name-anchor:hover {
+  color: #FF7518
+}
+
+.otcs .result-row .result-box .restaurant .name .name-value .name-anchor:visited {
+  color: #60B2D0
+}
+
+.otcs .result-row .result-box .restaurant .address {
+  font-style: italic
+}
+
+.otcs .result-row .result-box .restaurant .phone {
+  color: #FFF007
+}
+
+.otcs .result-row .result-box .restaurant .price {
+  font-weight: bold;
+  color: #00FF00
+}
+
+.otcs .result-row .result-box .restaurant .counter .counter-value {
+  color: #DDDDDD;
+  font-size: 75%;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 15px
+}
+
+.otcs .result-row .pager-box {
+  display: none
+}
+
+.otcs .result-row .pager-box .pagerButton {
+  width: 100%;
+  margin-top: 15px
+}
+
+.otcs .result-row .pager-box .opentable-pager {
+  text-align: center;
+  background: #000000;
+  height: 65px;
+  min-height: 65px;
+  border-radius: 5px;
+  border: 1px dotted #CCCCCC;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px
+}
+
+.otcs .result-row .pager-box .opentable-pager:hover {
+  background: #333333;
+  cursor: pointer
+}
+
+.otcs .result-row .pager-box .opentable-pager .opentable-pager-text {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF
+}
+
+.error-dialog {
+  display: none
+}

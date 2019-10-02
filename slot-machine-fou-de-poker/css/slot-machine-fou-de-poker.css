@@ -1,0 +1,869 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lobster Regular"), local("Lobster-Regular"), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zo-mM5Ez.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+/* cyrillic */
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lobster Regular"), local("Lobster-Regular"), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zoamM5Ez.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+/* vietnamese */
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lobster Regular"), local("Lobster-Regular"), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zo2mM5Ez.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+}
+/* latin-ext */
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lobster Regular"), local("Lobster-Regular"), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zoymM5Ez.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+/* latin */
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lobster Regular"), local("Lobster-Regular"), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zoKmMw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+/* latin-ext */
+@font-face {
+  font-family: "Parisienne";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Parisienne"), local("Parisienne-Regular"), url(https://fonts.gstatic.com/s/parisienne/v6/E21i_d3kivvAkxhLEVZpQyZwD9Ku.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+/* latin */
+@font-face {
+  font-family: "Parisienne";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Parisienne"), local("Parisienne-Regular"), url(https://fonts.gstatic.com/s/parisienne/v6/E21i_d3kivvAkxhLEVZpQyhwDw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+/* cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+/* greek-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF
+}
+/* greek */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");
+  unicode-range: U+0370-03FF
+}
+/* vietnamese */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+}
+/* latin-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+/* latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+.slots {
+  background: #0000FF;
+  background: -moz-linear-gradient(left, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  background: -webkit-linear-gradient(left, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  background: linear-gradient(to right, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000FF", endColorstr="#FF0000", GradientType=1);
+  padding: 15px;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-family: "Parisienne", "Lobster", "Roboto", cursive, serif;
+  border: 3px inset #0000FF;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes border-ani {
+  0% {
+	border-color: #0000FF
+  }
+
+  50% {
+	border-color: #FFFFFF
+  }
+
+  100% {
+	border-color: #FF0000
+  }
+}
+
+@keyframes border-ani {
+  0% {
+	border-color: #0000FF
+  }
+
+  50% {
+	border-color: #FFFFFF
+  }
+
+  100% {
+	border-color: #FF0000
+  }
+}
+
+.slots .buttons-row .bet-message-box {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .bet-message-box .message {
+  font-weight: bold;
+  font-size: 185%;
+  font-style: italic;
+  color: #0000FF;
+  -webkit-animation-name: message-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: message-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes message-ani {
+  0% {
+	color: #0000FF
+  }
+
+  50% {
+	color: #000000
+  }
+
+  100% {
+	color: #FF0000
+  }
+}
+
+@keyframes message-ani {
+  0% {
+	color: #0000FF
+  }
+
+  50% {
+	color: #000000
+  }
+
+  100% {
+	color: #FF0000
+  }
+}
+
+.slots .buttons-row .buttons-box {
+  text-align: center
+}
+
+.slots .buttons-row .buttons-box .bet-button {
+  margin-bottom: 10px;
+  width: auto;
+  min-width: 65px
+}
+
+.slots .buttons-row .buttons-box .bet-custom-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box {
+  margin-bottom: 10px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .op-button {
+  width: auto;
+  min-width: 100px
+}
+
+.slots .buttons-row .buttons-box .op-buttons-box .score-button {
+  width: auto
+}
+
+.slots .stage-row .stage-box .stage {
+  text-align: center;
+  margin-top: 15px
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con {
+  display: -webkit-flex;
+  display: flex
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-score {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #111111;
+  border-radius: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  border: 3px inset #0000FF;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-score .score {
+  font-size: 125%;
+  font-weight: bold;
+  color: #FFFFFF
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con.slots-user-con .slots-score .score {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con.slots-user-con .slots-score .score .floater {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con {
+  -webkit-flex: 7;
+  -ms-flex: 7;
+  flex: 7;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #111111;
+  border-radius: 15px;
+  color: #FFFFFF;
+  border: 3px inset #0000FF;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con .players-icons {
+	font-size: 30px
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con .slots-player-buttons-box {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding: 5px
+}
+
+.slots .stage-row .stage-box .stage .slots-players-con .slots-player-con .slots-player-buttons-box .player-button {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.slots .stage-row .stage-box .stage .slots-result {
+  margin-bottom: 25px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .program-loading-box {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  min-height: 300px;
+  vertical-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-result .program-loading-box .program-loading {
+  text-align: center;
+  min-height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con {
+  display: block
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box {
+  text-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-keep {
+  text-align: center
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-keep .slot-keep-button {
+  text-align: center;
+  width: 42px;
+  min-width: 42px
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-keep .slot-keep-button .slot-keep-icon {
+  font-weight: bold;
+  font-size: 110%;
+  font-style: italic
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 85px;
+  min-height: 85px;
+  width: 55px;
+  min-width: 55px;
+  border: 5px solid #000000;
+  border-radius: 15px;
+  opacity: 1;
+  background: #FFFFFF
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.basics {
+  background: #1F00D5;
+  font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #FFF5EE
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.basics:before {
+  content: "Basics" "\A" "Resort"
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.red-card {
+  color: #FF0000
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.black-card {
+  color: #000000
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.ace {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.ace:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "A" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.jack {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.jack:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "J" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.queen {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.queen:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "Q" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.king {
+}
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.king:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "K" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number2 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number2:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "2" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number3 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number3:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "3" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number4 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number4:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "4" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number5 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number5:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "5" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number6 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number6:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "6" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number7 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number7:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "7" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number8 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number8:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "8" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number9 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number9:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "9" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number10 {
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.number10:before {
+  white-space: pre;
+  content: attr(data-ascii) "\A" "10" "\A" attr(data-ascii)
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.play {
+  -webkit-animation-name: slot0-ani;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-name: slot0-ani;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1
+}
+
+@-webkit-keyframes slot0-ani {
+  0% {
+	opacity: 0
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1
+  }
+}
+
+@keyframes slot0-ani {
+  0% {
+	opacity: 0
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1
+  }
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.play.houseflip {
+  -webkit-animation-name: houseflip-ani !important;
+  animation-name: houseflip-ani !important
+}
+
+@-webkit-keyframes houseflip-ani {
+  0% {
+	opacity: 0;
+	background: #1F00D5;
+	width: 33%
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5;
+	width: 66%;
+	background: #FFFFFF
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1;
+	width: auto
+  }
+}
+
+@keyframes houseflip-ani {
+  0% {
+	opacity: 0;
+	background: #1F00D5
+  }
+
+  25% {
+	opacity: 0.25
+  }
+
+  50% {
+	opacity: 0.5;
+	background: #FFFFFF
+  }
+
+  75% {
+	opacity: 0.75
+  }
+
+  100% {
+	opacity: 1
+  }
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slot-con .img-box .slot-image.play.houseflipdelay {
+  -webkit-animation-duration: 0.66s !important;
+  animation-duration: 0.66s !important
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr {
+  display: block;
+  background: #008000;
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+  text-align: center;
+  border: 3px inset #C04000
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr .game-name-box {
+  margin: auto
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr .game-name-box .game-title {
+  font-size: 150%;
+  color: #000000;
+  font-weight: bold
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr .game-name-box .game-origin {
+  font-size: 50%;
+  font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #FF7518
+}
+
+.slots .stage-row .stage-box .stage .slots-result .slots-con .slots-vr .game-name-box .game-host {
+  font-size: 75%;
+  font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #FFF5EE
+}
+
+.slots .stage-row .stage-box .stage .slots-result .insufficient-credits {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 150%;
+  color: #FF0000;
+  background: #081655;
+  background: -moz-radial-gradient(center, ellipse cover, #081655 0%, #3D6C36 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #081655 0%, #3D6C36 100%);
+  background: radial-gradient(ellipse at center, #081655 0%, #3D6C36 100%)
+}
+
+.slots .stage-row .stage-box .stage .slots-separator {
+  height: 0;
+  border: 0;
+  border-bottom: 2px groove #0000FF;
+  -webkit-animation-name: separator-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: separator-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes separator-ani {
+  0% {
+	border-color: #0000FF
+  }
+
+  50% {
+	border-color: #FFFFFF
+  }
+
+  100% {
+	border-color: #FF0000
+  }
+}
+
+@keyframes separator-ani {
+  0% {
+	border-color: #0000FF
+  }
+
+  50% {
+	border-color: #FFFFFF
+  }
+
+  100% {
+	border-color: #FF0000
+  }
+}
+
+.slots .stage-row .stage-box .stage .slots-winner {
+  visibility: hidden;
+  font-size: 150%;
+  font-weight: bold;
+  color: #FF0000;
+  background: #FFF001;
+  padding: 5px;
+  border: 5px double #000000;
+  border-radius: 15px
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .plus-sign {
+  color: #00FF00;
+  font-size: 105%
+}
+
+.slots .stage-row .stage-box .stage .slots-winner .winnings {
+  color: #000000;
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box {
+  font-weight: bold;
+  font-size: 125%;
+  color: #000000;
+  background: rgba(212,212,212,0.3);
+  padding: 5px;
+  border-radius: 15px 15px 0 0
+}
+
+.slots .stage-row .stage-box .stage .avail-credits-box .credits {
+  font-weight: normal
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box {
+  font-weight: bold;
+  font-size: 125%;
+  color: #000000;
+  background: rgba(212,212,212,0.3);
+  padding: 5px;
+  border-radius: 0 0 15px 15px
+}
+
+.slots .stage-row .stage-box .stage .num-plays-box .num-plays {
+  font-weight: normal
+}
+
+.ui-dialog {
+  font-family: "Parisienne", "Lobster", "Roboto", cursive, serif;
+  border: 3px inset #0000FF !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  background: #0000FF;
+  background: -moz-linear-gradient(left, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  background: -webkit-linear-gradient(left, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  background: linear-gradient(to right, #0000FF 0%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000FF", endColorstr="#FF0000", GradientType=1);
+  border: 3px inset #0000FF !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+  color: #000000 !important
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  border-top: 3px inset #0000FF !important;
+  -webkit-animation-name: border-ani;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: border-ani;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
+}
+
+.ui-dialog .ui-button {
+  font-family: "Parisienne", "Lobster", "Roboto", cursive, serif !important
+}
+
+.score-dialog {
+  display: none
+}
+
+.score-dialog .score-dialog-body .high-score-local-box {
+  margin-bottom: 15px
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .high-score-local-box .high-score-local .score {
+  font-weight: normal
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local {
+  font-weight: bold
+}
+
+.score-dialog .score-dialog-body .numspins-local-box .spins-local .spins {
+  font-weight: normal
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .slots .buttons-row .bet-message-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-button {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .bet-custom-box {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .op-buttons-box {
+    margin-bottom: 5px
+  }
+
+  .slots .stage-row .stage-box .stage .slots-result {
+    margin-bottom: 5px
+  }
+
+  .slots .buttons-row .buttons-box .op-buttons-box .op-button {
+    min-width: 75px
+  }
+
+  .slots .stage-row .stage-box .stage .slots-players-con .slots-score {
+    -webkit-flex: 7;
+    -ms-flex: 7;
+    flex: 7
+  }
+}

@@ -1,0 +1,193 @@
+.filter-box {
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px
+}
+
+.filter-box .filter-tbl {
+  display: table;
+  width: 100%
+}
+
+.filter-box .filter-tbl .filter-tbl-tr {
+  display: table-row;
+  width: 100%
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-pageno-box {
+  display: table-cell;
+  padding-right: 15px;
+  padding-left: 10px
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-pageno-box .pageno_input {
+  min-height: 50px
+}
+
+.filter-box .filter-tbl .filter-tbl-tr label {
+  color: #FFFFFF
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-perpage-box {
+  display: table-cell;
+  padding-left: 15px;
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-perpage-box .perpage_select {
+  min-width: 100%;
+  min-height: 50px
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-submit-box {
+  display: table-cell;
+  padding-left: 15px;
+  padding-right: 10px;
+  vertical-align: bottom;
+  text-align: center
+}
+
+.filter-box .filter-tbl .filter-tbl-tr .filter-submit-box .filter-submit {
+  min-height: 50px;
+  vertical-align: center
+}
+
+.owner-box {
+  background: #000000;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px
+}
+
+.owner-box .flickr-owner {
+  color: #FFFFFF;
+  background: #000000;
+  text-align: left;
+  margin-bottom: 2px;
+  margin-left: 10px
+}
+
+.owner-box .flickr-owner .owner-anchor {
+  color: #0063DC;
+  text-decoration: none !important
+}
+
+.owner-box .flickr-owner .owner-anchor:hover {
+  color: #FF7518
+}
+
+.owner-box .flickr-owner-name {
+  color: #FFFFFF;
+  font-size: 75%;
+  margin-left: 10px;
+  margin-bottom: 2px
+}
+
+.owner-box .flickr-license {
+  font-size: 60%;
+  margin-left: 10px
+}
+
+.owner-box .flickr-license .public-domain {
+  color: #FFF007;
+  text-decoration: none !important
+}
+
+.owner-box .flickr-license .public-domain:hover {
+  color: #FF7518
+}
+
+.flickr-imager {
+  background: #000000;
+  border-radius: 5px;
+  margin-bottom: 10px
+}
+
+.flickr-imager .flickr-loading {
+  text-align: center;
+  min-height: 65px;
+  height: 65px;
+  vertical-align: center;
+  background: url("../../img/loading.gif") no-repeat center;
+  height: 300px;
+  width: 100%;
+  margin: auto
+}
+
+.flickr-imager .nasa-box {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: 1px dotted #CCCCCC
+}
+
+.flickr-imager .nasa-box .nasa-title {
+  font-weight: bold;
+  font-size: 175%;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center
+}
+
+.flickr-imager .nasa-box .nasa-title .title-anchor {
+  color: #0063DC
+}
+
+.flickr-imager .nasa-box .nasa-title .title-anchor:hover {
+  color: #FF7518
+}
+
+.flickr-imager .nasa-box .nasa-image-box {
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+
+.flickr-imager .nasa-box .nasa-image-box .nasa-image {
+  text-align: center;
+  display: block;
+  margin: 0 auto
+}
+
+.flickr-imager .nasa-box .image-counter {
+  color: #DDDDDD;
+  font-size: 75%;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 15px
+}
+
+.flickr-imager .no-results {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 175%;
+  font-weight: bold;
+  margin: 15px 10px 15px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
+.flickr-pager {
+  text-align: center;
+  background: #000000;
+  height: 65px;
+  min-height: 65px;
+  border-radius: 5px;
+  border: 1px dotted #CCCCCC;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px
+}
+
+.flickr-pager:hover {
+  background: #333333;
+  cursor: pointer
+}
+
+.flickr-pager .flickr-pager-text {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF
+}

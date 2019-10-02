@@ -1,0 +1,16 @@
+.ohl-box .instruct-box {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000
+}
+
+.ohl-box .headers-box {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  padding-bottom: 10px
+}
+
+.ohl-box .headers-box .headers-value {
+  color: #FF3300;
+  text-decoration: underline
+}

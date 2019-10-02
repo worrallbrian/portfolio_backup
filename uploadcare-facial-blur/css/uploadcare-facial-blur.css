@@ -1,0 +1,14 @@
+.ucfb .message-box {
+  margin-bottom: 30px
+}
+
+.ucfb .image-row {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.ucfb .image-row .image-box .uc-image {
+  width: auto;
+  height: auto;
+  max-height: 500px
+}
