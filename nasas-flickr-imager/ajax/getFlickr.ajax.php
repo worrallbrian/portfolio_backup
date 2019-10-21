@@ -60,7 +60,7 @@ if (empty($buffer)) {
           $ntitle = (isset($r['title']) && !empty($r['title'])) ? str_replace('"', "", strip_tags(trim($r['title']))) : "";
 
           if (!empty($id) && !empty($farm) && !empty($serveid) && !empty($secret)) {
-		    $data['photos'][] = array("id" => $id, "farm" => $farm, "serveid" => $serveid, "secret" => $secret, "title" => $ntitle);
+		    $data['photos'][] = ["id" => $id, "farm" => $farm, "serveid" => $serveid, "secret" => $secret, "title" => $ntitle];
           }
 		}
       }

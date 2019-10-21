@@ -1,3 +1,11 @@
+function string_wash(val) {
+	return (((val != null) && (val != "")) ? val.toString().replace(/[^a-zA-Z0-9_\-]/g, "") : "");
+}
+
+function title_wash(val) {
+	return (((val != null) && (val != "")) ? val.toString().replace(/((")|(`))/g, "").replace(/(<([^>]+)>)/ig, "") : "");
+}
+
 jQuery(document).ready(function() {
 	/* Check needed elements exist */
 	if ((jQuery(".flickr-imager").length > 0) && (jQuery(".flickr-pager").length > 0)) {
@@ -18,7 +26,7 @@ jQuery(document).ready(function() {
 				}
 
 				jQuery.ajax({
-					url: "ajax/getFlickr.ajax.php",
+					url: "wp-includes/nasas-flickr-imager/ajax/getFlickr.ajax.php",
 					type: "POST",
 					data: {
 						"perpage" : pp,
@@ -37,8 +45,8 @@ jQuery(document).ready(function() {
 						if ((data == null) || (res == null)) {
 							rows = "<div class=\"no-results\">Program Error: Flickr account pull failed.</div>";
 						} else if ((res['error'] != null) && (res['error'] != "")) {
-							rows = "<div class=\"no-results\">Flickr Error: " + ((res['error']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "")) + "</div>";
-						} 
+							rows = "<div class=\"no-results\">Flickr Error: " + ((res['error']).replace(/"((')|(`))/g, "").replace(/(<([^>]+)>)/ig, "")) + "</div>";
+						}
 
 						if (rows != "") {
 							jQuery(".flickr-imager").append(rows);
@@ -66,11 +74,11 @@ jQuery(document).ready(function() {
 
 								/* Parse photos */
 								for (i = 0; i < res['photos'].length; i++) {
-									id = ((res['photos'][i]['id'] != null) && (res['photos'][i]['id'] != "")) ? (res['photos'][i]['id']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "") : "";
-									farm = ((res['photos'][i]['farm'] != null) && (res['photos'][i]['farm'] != "")) ? (res['photos'][i]['farm']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "") : "";
-									serveid = ((res['photos'][i]['serveid'] != null) && (res['photos'][i]['serveid'] != "")) ? (res['photos'][i]['serveid']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "") : "";
-									secret = ((res['photos'][i]['secret'] != null) && (res['photos'][i]['secret'] != "")) ? (res['photos'][i]['secret']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "") : "";
-									title = ((res['photos'][i]['title'] != null) && (res['photos'][i]['title'] != "")) ? (res['photos'][i]['title']).replace(/"/g, "").replace(/(<([^>]+)>)/ig, "") : "N/A";
+									id = (((res['photos'][i]['id'] != null) && (res['photos'][i]['id'] != "")) ? string_wash(res['photos'][i]['id']) : "");
+									farm = (((res['photos'][i]['farm'] != null) && (res['photos'][i]['farm'] != "")) ? string_wash(res['photos'][i]['farm']) : "");
+									serveid = (((res['photos'][i]['serveid'] != null) && (res['photos'][i]['serveid'] != "")) ? string_wash(res['photos'][i]['serveid']) : "");
+									secret = (((res['photos'][i]['secret'] != null) && (res['photos'][i]['secret'] != "")) ? string_wash(res['photos'][i]['secret']) : "");
+									title = (((res['photos'][i]['title'] != null) && (res['photos'][i]['title'] != "")) ? title_wash(res['photos'][i]['title']) : "N/A");
 
 									if ((id != "") && (farm != "") && (serveid != "") && (secret != "")) {
 										imgsrc = "https://farm" + farm + ".staticflickr.com/" + serveid + "/" + id + "_" + secret + ".jpg";
