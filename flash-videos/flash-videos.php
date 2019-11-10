@@ -25,5 +25,5 @@ if (!isset($_SESSION)) {
 </div>
 
 <div class="buffed">
-	<a class="flash-link" href="../flash-space-race/space-race.php">Space Race</a> : Board Game centered around Io
+	<a class="flash-link" href="../flash-space-race/space-race.php">Space Race</a> : Board Game centered around Io (First moon of the planet Jupiter)
 </div>
