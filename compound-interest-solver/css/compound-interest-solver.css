@@ -1,0 +1,56 @@
+.cis .form-row .years-box .years {
+  min-height: 48.375px
+}
+
+.cis .form-row .calc-type-msg-box .calc-type-msg {
+  font-weight: 800
+}
+
+.cis .form-row .form-check {
+  margin-left: 20px
+}
+
+.cis .form-row .submit-box {
+  padding-top: 15px;
+  border-top: 1px solid #000000;
+  margin-bottom: 15px;
+  text-align: center
+}
+
+.cis .chart-row .chart-box {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  text-align: center
+}
+
+.cis .chart-row .chart-box .barchart-con {
+  height: 375px;
+  width: 100%;
+  margin-bottom: 15px
+}
+
+.cis .results-box-row {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px
+}
+
+.cis .results-box-row .header-box {
+  color: #FF3300;
+  text-decoration: underline
+}
+
+.cis .results-box-row .value-box {
+  text-align: right;
+  padding-top: 0
+}
+
+/* col-sm */
+@media only screen and (max-width: 576px) {
+  .cis .results-box-row .value-box {
+    text-align: left;
+	padding-top: 5px
+  }
+}

@@ -9,7 +9,7 @@
 
 # Required SQL Tables can be found on different repositories of this user.
 
-# Contents: Google Maps Address Mapper, C Code Samples, Complementary Colour Generator, CSS Animations, E-Mail Example, Factor Solver, Fantasy Pool Picker, Flash Videos, Fraction Solver, Infinite Z, Jovian Date, Mini ALL4 Ad, NASA Goddard's Flickr Imager, Obscure Header List, OpenTable City Searcher, Powerpoint Presentations, QR Code, Random Password, Slot Machines Intro, Slot Machine Classic, Slot Machine Modern, Slot Machine War, Slot Machine Blackjack, Slot Machine Videopoker, Slot Machine Fou de Poker, Slot Machine Lōlō Poker, Sports Tabler, Statistical Lookup, Stellar Weight Calculator, String Calculator, String Likeness Checker, Survey Form Example, Three Card Monte, UploadCare Colour Crop, UploadCare Complementary Borders, UploadCare Facial Blur.
+# Contents: Google Maps Address Mapper, C Code Samples, Complementary Colour Generator, Compound Interest Solver, CSS Animations, E-Mail Example, Factor Solver, Fantasy Pool Picker, Flash Videos, Fraction Solver, Infinite Z, Jovian Date, Mini ALL4 Ad, NASA Goddard's Flickr Imager, Obscure Header List, OpenTable City Searcher, Powerpoint Presentations, QR Code, Random Password, Slot Machines Intro, Slot Machine Classic, Slot Machine Modern, Slot Machine War, Slot Machine Blackjack, Slot Machine Videopoker, Slot Machine Fou de Poker, Slot Machine Lōlō Poker, Sports Tabler, Statistical Lookup, Stellar Weight Calculator, String Calculator, String Likeness Checker, Survey Form Example, Three Card Monte, UploadCare Colour Crop, UploadCare Complementary Borders, UploadCare Facial Blur.
 
 # Mini ALL4 Ad was a trial project for a different company. No affiliation, nor compensation.
 
