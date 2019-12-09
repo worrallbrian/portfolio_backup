@@ -2,7 +2,7 @@
 if (!isset($_SESSION)) {
 	session_start();
 }
-?><script type="text/javascript" src="js/angular1.6.9.min.js"></script>
+?><script type="text/javascript" src="js/angular1.7.9.min.js"></script>
 <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
 <script type="text/javascript" src="../math-libraries/big.min.js"></script>
