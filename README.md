@@ -1,7 +1,7 @@
 # Created by Brian Worrall
-# Date: 2019-10-06
+# Date: 2024-04-25
 
-# This repository contains a backup of the functionality of the code that runs the professional portfolio at https://brianworrallportfolio.000webhostapp.com. Assume PHP files are to be placed into Wordpress pages using a Wordpress PHP plugin. File paths and form actions may not match exactly, and may require fine tuning.
+# This repository contains a backup of the functionality of the code that runs the professional portfolio at https://brianworrallportfolio.000webhostapp.com (now extinct). Assume PHP files are to be placed into Wordpress pages using a Wordpress PHP plugin. File paths and form actions may not match exactly, and may require fine tuning.
 
 # All API Keys, UploadCare hosted file UUIDs have been set to dummy values. Please get your own.
 
